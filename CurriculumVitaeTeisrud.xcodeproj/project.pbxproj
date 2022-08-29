@@ -11,6 +11,7 @@
 		D04C3CE928BD744800523B0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3CE828BD744800523B0C /* ContentView.swift */; };
 		D04C3CEB28BD744A00523B0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04C3CEA28BD744A00523B0C /* Assets.xcassets */; };
 		D04C3CEE28BD744A00523B0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04C3CED28BD744A00523B0C /* Preview Assets.xcassets */; };
+		D04C3CF828BD785F00523B0C /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3CF728BD785F00523B0C /* ProfilePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D04C3CE828BD744800523B0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D04C3CEA28BD744A00523B0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D04C3CED28BD744A00523B0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D04C3CF728BD785F00523B0C /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				D04C3CE628BD744800523B0C /* CurriculumVitaeTeisrudApp.swift */,
-				D04C3CE828BD744800523B0C /* ContentView.swift */,
+				D04C3CF528BD77DF00523B0C /* Views */,
 				D04C3CEA28BD744A00523B0C /* Assets.xcassets */,
 				D04C3CEC28BD744A00523B0C /* Preview Content */,
 			);
@@ -65,6 +67,31 @@
 				D04C3CED28BD744A00523B0C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D04C3CF428BD77CA00523B0C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D04C3CF728BD785F00523B0C /* ProfilePage.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D04C3CF528BD77DF00523B0C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D04C3CE828BD744800523B0C /* ContentView.swift */,
+				D04C3CF628BD77FA00523B0C /* Educations */,
+				D04C3CF428BD77CA00523B0C /* Profile */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D04C3CF628BD77FA00523B0C /* Educations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Educations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04C3CF828BD785F00523B0C /* ProfilePage.swift in Sources */,
 				D04C3CE928BD744800523B0C /* ContentView.swift in Sources */,
 				D04C3CE728BD744800523B0C /* CurriculumVitaeTeisrudApp.swift in Sources */,
 			);

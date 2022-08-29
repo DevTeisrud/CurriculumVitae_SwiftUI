@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ProfilePage.swift
 //  CurriculumVitaeTeisrud
 //
 //  Created by Bjørn Kristian Teisrud on 30/08/2022.
@@ -7,15 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ProfilePage: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Text("ProfilePage")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ProfilePage_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ProfilePage()
     }
 }
