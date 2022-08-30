@@ -1,53 +1,52 @@
 //
-//  VolunteeringDetails.swift
+//  EducationsDetails.swift
 //  CurriculumVitaeTeisrud
 //
 //  Created by Bjørn Kristian Teisrud on 30/08/2022.
 //
 
 import SwiftUI
-import CoreLocation
 
-struct VolunteeringDetails: View {
+struct EducationsDetails: View {
     @EnvironmentObject var modelData: ModelData
-    var volunteering: Volunteering
+    var education: Educations
     
     var body: some View {
         ScrollView {
-            MapView(coordinate: volunteering.locationCoordinate)
+            MapView(coordinate: education.locationCoordinate)
                 .ignoresSafeArea(edges: .top)
                 .frame(height: 300)
             
-            CircleImage(image: volunteering.image)
+            CircleImage(image: education.image)
                 .frame(width: 200, height: 200)
                 .offset(y: -130)
                 .padding(.bottom, -130)
             
             VStack(alignment: .leading) {
-                Text(volunteering.role)
+                Text(education.role)
                     .font(.title)
-                Text(volunteering.orgName)
+                Text(education.orgName)
                     .font(.subheadline)
                     .foregroundColor(.secondary)
 
                 Divider()
 
-                Text("About \(volunteering.orgName)")
+                Text("About \(education.orgName)")
                     .font(.title2)
-                Text(volunteering.description)
+                Text(education.description)
             }
             .padding()
         }
-        .navigationTitle(volunteering.orgName)
+        .navigationTitle(education.orgName)
         .navigationBarTitleDisplayMode(.inline)
     }
 }
 
-struct VolunteeringDetails_Previews: PreviewProvider {
+struct EducationsDetails_Previews: PreviewProvider {
     static let modelData = ModelData()
     
     static var previews: some View {
-        VolunteeringDetails(volunteering: modelData.volunteering[0])
+        EducationsDetails(education: modelData.educations[0])
             .environmentObject(modelData)
     }
 }

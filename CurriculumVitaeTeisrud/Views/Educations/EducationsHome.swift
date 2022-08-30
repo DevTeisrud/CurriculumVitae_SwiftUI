@@ -1,5 +1,5 @@
 //
-//  VolunteeringHome.swift
+//  EducationsHome.swift
 //  CurriculumVitaeTeisrud
 //
 //  Created by Bjørn Kristian Teisrud on 30/08/2022.
@@ -7,33 +7,33 @@
 
 import SwiftUI
 
-struct VolunteeringHome: View {
+struct EducationsHome: View {
     @EnvironmentObject var modelData: ModelData
-    @State private var selectedVoluteer: Volunteering?
+    @State private var selectededucation: Educations?
     
     var body: some View {
         NavigationView {
-            List(selection: $selectedVoluteer) {
-                ForEach(modelData.volunteering, id: \.self) { volunteer in
+            List(selection: $selectededucation) {
+                ForEach(modelData.educations, id: \.self) { education in
                     NavigationLink {
-                        VolunteeringDetails(volunteering: volunteer)
+                        EducationsDetails(education: education)
                     } label: {
-                        VolunteeringItem(volunteering: volunteer)
+                        Text(education.orgName)
                     }
 
                 }
             }
             .listStyle(.inset)
-            .navigationTitle("Volunteering")
+            .navigationTitle("Educations")
         }
     }
 }
 
-struct VolunteeringHome_Previews: PreviewProvider {
+struct EducationsHome_Previews: PreviewProvider {
     static let modelData = ModelData()
     
     static var previews: some View {
-        VolunteeringHome()
+        EducationsHome()
             .environmentObject(modelData)
     }
 }

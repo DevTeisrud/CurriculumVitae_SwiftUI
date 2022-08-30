@@ -9,6 +9,9 @@ import Foundation
 import Combine
 
 final class ModelData: ObservableObject {
+    @Published var educations: [Educations] = load("educations.json")
+    @Published var workExperience: [WorkExperience] = load("workExperience.json")
+    @Published var volunteering: [Volunteering] = load("volunteering.json")
     @Published var profile: [Profile] = load("profile.json")
 }
 

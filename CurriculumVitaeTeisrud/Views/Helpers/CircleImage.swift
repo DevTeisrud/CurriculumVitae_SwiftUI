@@ -11,13 +11,18 @@ struct CircleImage: View {
     var image: Image
     
     var body: some View {
-        image
-            .frame(width: 200, height: 200)
-            .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
-            .overlay {
-                Circle().stroke(.white, lineWidth: 4)
-            }
-            .shadow(radius: 7)
+        ZStack{
+            Color.white
+                .ignoresSafeArea()
+            image
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+        }
+        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+        .overlay {
+            Circle().stroke(.white, lineWidth: 4)
+        }
+        .shadow(radius: 7)
     }
 }
 

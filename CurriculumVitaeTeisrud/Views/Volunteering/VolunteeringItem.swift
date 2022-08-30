@@ -8,26 +8,26 @@
 import SwiftUI
 
 struct VolunteeringItem: View {
+    var volunteering: Volunteering
+    
     var body: some View {
         HStack{
-            Image("IndokSorLogoShort")
-                .renderingMode(.original)
-                .resizable()
-                .frame(width: 155, height: 155)
-                .cornerRadius(5)
+            CircleImage(image: volunteering.image)
+                .frame(width: 100, height: 100)
             VStack(alignment: .leading){
-                Text("Event Manager")
+                Text(volunteering.role)
                     .font(.title)
-                Text("Indøk Sør")
+                Text(volunteering.orgName)
                     .font(.subheadline)
             }
+            .padding(.horizontal)
         }
-        .frame(height: 160)
+        .padding()
     }
 }
 
 struct VolunteeringItem_Previews: PreviewProvider {
     static var previews: some View {
-        VolunteeringItem()
+        VolunteeringItem(volunteering: ModelData().volunteering[0])
     }
 }

@@ -19,6 +19,7 @@ struct ProfilePage: View {
                 .frame(height: 300)
             
             CircleImage(image: profile.image)
+                .frame(width: 200, height: 200)
                 .offset(y: -130)
                 .padding(.bottom, -130)
             
@@ -26,9 +27,6 @@ struct ProfilePage: View {
                 Text(profile.name)
                     .font(.title)
                 Text("B.Sc Computer Science")
-                    .font(.subheadline)
-                    .foregroundColor(.secondary)
-                Text("M.Sc Industrial Economics and Technology Management student")
                     .font(.subheadline)
                     .foregroundColor(.secondary)
 

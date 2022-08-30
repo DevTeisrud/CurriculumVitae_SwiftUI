@@ -20,7 +20,7 @@ struct ContentView: View {
     
     var body: some View {
         TabView(selection: $selection) {
-            Text("Education")
+            EducationsHome()
                 .tabItem {
                     Label("Education", systemImage: "books.vertical")
                 }
@@ -32,7 +32,7 @@ struct ContentView: View {
                 }
                 .tag(Tab.workExperience)
             
-            VolunteeringDetails()
+            VolunteeringHome()
                 .tabItem {
                     Label("Volunteering", systemImage: "star")
                 }
