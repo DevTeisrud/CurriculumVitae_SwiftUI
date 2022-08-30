@@ -12,7 +12,7 @@
             "longitude": 10.62738,
             "latitude": 59.89928
         },
-        "description": "Beskrivelse av Telenor Norge AS"
+        "description": "Summer Intern on the project 'BSS(IT) to Cloud'. On this project, we were three people who had to find a method to make Telenor's applications and digital infrastructure more robust. We then integrated Chaos Engineering into the digital intrastructure of Telenor. Regardless of how much error and chaos you add to an application, errors will still occur in the future. Furthermore, during the internship, we developed a more advanced alerting system that enables Telenor to become aware of errors that occur on your digital infrastructure, much faster than before."
     },
     {
         "id": 1005,
@@ -27,7 +27,7 @@
             "longitude": 5.69736,
             "latitude": 58.93746
         },
-        "description": "Beskrivelse av Universitetet i Stavanger"
+        "description": "Was employed after submitting the bachelor's thesis. Here I continue to develop our bachelor's thesis 'QuickFeed', which is an automatic correcting system for assignments and exams in programming."
     },
     {
         "id": 1006,
@@ -42,7 +42,7 @@
             "longitude": 7.97125,
             "latitude": 58.13878
         },
-        "description": "Beskrivelse av Glencore Nikkelverk AS"
+        "description": "Two summer seasons as holiday substitute at Glencore Nikkelverk AS. Here I worked in a central part of their production."
     },
     {
         "id": 1007,
@@ -57,12 +57,12 @@
             "longitude": 7.81806,
             "latitude": 58.09193
         },
-        "description": "Beskrivelse av Montér"
+        "description": "Salesman in the building materials industry. Main focus: Building materials, Paint, Tools etc..."
     },
     {
         "id": 1008,
         "orgName": "Bygdegulv",
-        "role": "TODO",
+        "role": "HandyMan",
         "imageName": "BygdegulvLogoShort",
         "padding": true,
         "startDate": "Jul. 2014",
@@ -72,7 +72,7 @@
             "longitude": 7.79842,
             "latitude": 58.08033
         },
-        "description": "Beskrivelse av Bygdegulv"
+        "description": "Surface treatment of solid floors in the evening if necessary."
     },
     {
         "id": 1009,
@@ -87,12 +87,12 @@
             "longitude": 7.95934,
             "latitude": 58.13645
         },
-        "description": "Beskrivelse av Trine På Gården AS"
+        "description": "Responsible for the main warehouse at Trine På Gården AS."
     },
     {
         "id": 1010,
         "orgName": "Søgne Skolekorps",
-        "role": "TODO",
+        "role": "Instructor",
         "imageName": "SongeSkolekorpsLogoLong",
         "padding": true,
         "startDate": "Aug. 2014",
@@ -102,6 +102,6 @@
             "longitude": 7.76550,
             "latitude": 58.10169
         },
-        "description": "Beskrivelse av Søgne Skolekorps"
+        "description": "Responsible for teaching the percussion groups at all levels. At the band's concerts, I was responsible for rigging and programming the lights."
     }
 ]

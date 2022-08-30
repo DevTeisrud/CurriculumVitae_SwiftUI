@@ -13,20 +13,5 @@
         },
         "description": "Beskrivelse av hva Indøk Sør er.",
         "roleDescription": "Beskrivelse av hva jeg gjorde her."
-    },
-    {
-        "id": 1003,
-        "orgName": "Søgne Skolekorps",
-        "role": "TODO",
-        "imageName": "SongeSkolekorpsLogoLong",
-        "startDate": "Aug. 2014",
-        "endDate": "->",
-        "geoLocation": "Søgne",
-        "coordinates": {
-            "longitude": 7.76550,
-            "latitude": 58.10169
-        },
-        "description": "Beskrivelse av hva Søgne Skolekorps er.",
-        "roleDescription": "Beskrivelse av hva jeg gjorde her."
     }
 ]

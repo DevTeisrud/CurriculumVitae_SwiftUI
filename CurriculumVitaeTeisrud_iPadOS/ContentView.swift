@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  CurriculumVitaeTeisrud
+//  CurriculumVitaeTeisrud_iPadOS
 //
 //  Created by Bjørn Kristian Teisrud on 30/08/2022.
 //
@@ -32,7 +32,7 @@ struct ContentView: View {
                 }
                 .tag(Tab.workExperience)
             
-            VolunteeringDetails(volunteering: modelData.volunteering[0])
+            VolunteeringHome()
                 .tabItem {
                     Label("Volunteering", systemImage: "figure.wave")
                 }
