@@ -12,8 +12,8 @@ struct ContentView: View {
 
     enum Tab {
         case education
-        case jobb
-        case friviligArbeid
+        case workExperience
+        case volunteering
         case me
     }
     
@@ -25,17 +25,17 @@ struct ContentView: View {
                 }
                 .tag(Tab.education)
 
-            Text("jobb")
+            Text("Work Experience")
                 .tabItem {
-                    Label("jobb", systemImage: "star")
+                    Label("Work Experience", systemImage: "star")
                 }
-                .tag(Tab.jobb)
+                .tag(Tab.workExperience)
             
-            Text("friviligArbeid")
+            VolunteeringDetails()
                 .tabItem {
-                    Label("friviligArbeid", systemImage: "star")
+                    Label("Volunteering", systemImage: "star")
                 }
-                .tag(Tab.friviligArbeid)
+                .tag(Tab.volunteering)
             
             ProfilePage()
                 .tabItem {
