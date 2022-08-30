@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var modelData = ModelData()
     @State private var selection: Tab = .education
 
     enum Tab {
@@ -37,7 +38,7 @@ struct ContentView: View {
                 }
                 .tag(Tab.volunteering)
             
-            ProfilePage()
+            ProfilePage(profile: modelData.profile[0])
                 .tabItem {
                     Label("me", systemImage: "person")
                 }

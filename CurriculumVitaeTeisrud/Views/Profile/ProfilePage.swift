@@ -9,20 +9,21 @@ import SwiftUI
 import CoreLocation
 
 struct ProfilePage: View {
+    @EnvironmentObject var modelData: ModelData
+    var profile: Profile
+    
     var body: some View {
         ScrollView {
-            MapView(coordinate: CLLocationCoordinate2D(
-                latitude: 58.13635,
-                longitude: 7.99771))
+            MapView(coordinate: profile.locationCoordinate)
                 .ignoresSafeArea(edges: .top)
                 .frame(height: 300)
             
-            CircleImage(image: Image("BKT"))
+            CircleImage(image: profile.image)
                 .offset(y: -130)
                 .padding(.bottom, -130)
             
             VStack(alignment: .leading) {
-                Text("Bjørn Kristian Teisrud")
+                Text(profile.name)
                     .font(.title)
                 Text("B.Sc Computer Science")
                     .font(.subheadline)
@@ -35,7 +36,7 @@ struct ProfilePage: View {
 
                 Text("About me")
                     .font(.title2)
-                Text("TODO: Information About me")
+                Text(profile.description)
             }
             .padding()
         }
@@ -45,7 +46,10 @@ struct ProfilePage: View {
 }
 
 struct ProfilePage_Previews: PreviewProvider {
+    static let modelData = ModelData()
+    
     static var previews: some View {
-        ProfilePage()
+        ProfilePage(profile: modelData.profile[0])
+            .environmentObject(modelData)
     }
 }
