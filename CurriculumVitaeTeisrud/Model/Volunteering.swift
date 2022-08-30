@@ -14,7 +14,10 @@ struct Volunteering: Hashable, Codable, Identifiable {
     var orgName: String
     var role: String
     var geoLocation: String
+    var startDate: String
+    var endDate: String
     var description: String
+    var roleDescription: String
 
     private var imageName: String
     var image: Image {

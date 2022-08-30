@@ -1,5 +1,5 @@
 //
-//  VolunteeringItem.swift
+//  EducationsItem.swift
 //  CurriculumVitaeTeisrud
 //
 //  Created by Bjørn Kristian Teisrud on 30/08/2022.
@@ -7,24 +7,24 @@
 
 import SwiftUI
 
-struct VolunteeringItem: View {
-    var volunteering: Volunteering
+struct EducationsItem: View {
+    var educations: Educations
     
     var body: some View {
         HStack{
             ZStack{
                 Color.white
                     .ignoresSafeArea()
-                volunteering.image
+                educations.image
                     .resizable()
                     .aspectRatio(contentMode: .fit)
             }
             .frame(width: 70, height: 70)
             .cornerRadius(10)
             VStack(alignment: .leading){
-                Text(volunteering.role)
+                Text(educations.title)
                     .font(.title)
-                Text(volunteering.orgName)
+                Text(educations.orgName)
                     .font(.subheadline)
             }
             .padding(.horizontal)
@@ -34,8 +34,8 @@ struct VolunteeringItem: View {
     }
 }
 
-struct VolunteeringItem_Previews: PreviewProvider {
+struct EducationsItem_Previews: PreviewProvider {
     static var previews: some View {
-        VolunteeringItem(volunteering: ModelData().volunteering[0])
+        EducationsItem(educations: ModelData().educations[0])
     }
 }

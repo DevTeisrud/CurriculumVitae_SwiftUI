@@ -12,9 +12,13 @@ import CoreLocation
 struct Educations: Hashable, Codable, Identifiable {
     var id: Int
     var orgName: String
-    var role: String
+    var title: String
+    var studyProgramme: String
     var geoLocation: String
+    var startDate: String
+    var endDate: String
     var description: String
+    var studyDesc: String
 
     private var imageName: String
     var image: Image {

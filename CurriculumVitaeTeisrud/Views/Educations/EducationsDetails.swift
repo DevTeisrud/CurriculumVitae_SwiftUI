@@ -23,21 +23,22 @@ struct EducationsDetails: View {
                 .padding(.bottom, -130)
             
             VStack(alignment: .leading) {
-                Text(education.role)
+                Text(education.studyProgramme)
                     .font(.title)
                 HStack{
-                    Text(education.orgName)
+                    Text(education.title)
                     Spacer()
-                    Text(education.geoLocation)
+                    Text("\(education.startDate) - \(education.endDate)")
                 }
                 .font(.subheadline)
                 .foregroundColor(.secondary)
 
                 Divider()
-
-                Text("About \(education.orgName)")
+                
+                Text("About the study programme")
                     .font(.title2)
-                Text(education.description)
+                Text(education.studyDesc)
+                    .padding(.bottom)
             }
             .padding()
         }
@@ -50,7 +51,7 @@ struct EducationsDetails_Previews: PreviewProvider {
     static let modelData = ModelData()
     
     static var previews: some View {
-        EducationsDetails(education: modelData.educations[0])
+        EducationsDetails(education: modelData.educations[1])
             .environmentObject(modelData)
     }
 }

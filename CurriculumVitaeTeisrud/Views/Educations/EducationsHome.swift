@@ -18,7 +18,7 @@ struct EducationsHome: View {
                     NavigationLink {
                         EducationsDetails(education: education)
                     } label: {
-                        Text(education.orgName)
+                        EducationsItem(educations: education)
                     }
 
                 }

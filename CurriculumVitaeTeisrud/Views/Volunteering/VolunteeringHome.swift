@@ -22,6 +22,7 @@ struct VolunteeringHome: View {
                     }
 
                 }
+                .listRowInsets(EdgeInsets())
             }
             .listStyle(.inset)
             .navigationTitle("Volunteering")

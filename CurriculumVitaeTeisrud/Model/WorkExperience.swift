@@ -14,6 +14,9 @@ struct WorkExperience: Hashable, Codable, Identifiable {
     var orgName: String
     var role: String
     var geoLocation: String
+    var startDate: String
+    var endDate: String
+    var padding: Bool
     var description: String
 
     private var imageName: String

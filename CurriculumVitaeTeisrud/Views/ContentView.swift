@@ -40,7 +40,7 @@ struct ContentView: View {
             
             ProfilePage(profile: modelData.profile[0])
                 .tabItem {
-                    Label("me", systemImage: "person")
+                    Label("Me", systemImage: "person")
                 }
                 .tag(Tab.me)
         }

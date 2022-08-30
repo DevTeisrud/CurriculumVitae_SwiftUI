@@ -30,12 +30,17 @@ struct VolunteeringDetails: View {
                 HStack{
                     Text(volunteering.orgName)
                     Spacer()
-                    Text(volunteering.geoLocation)
+                    Text("\(volunteering.startDate) \(volunteering.endDate)")
                 }
                 .font(.subheadline)
                 .foregroundColor(.secondary)
 
                 Divider()
+                
+                Text("My role in \(volunteering.orgName)")
+                    .font(.title2)
+                Text(volunteering.roleDescription)
+                    .padding(.bottom)
 
                 Text("About \(volunteering.orgName)")
                     .font(.title2)
@@ -52,7 +57,7 @@ struct VolunteeringDetails_Previews: PreviewProvider {
     static let modelData = ModelData()
     
     static var previews: some View {
-        VolunteeringDetails(volunteering: modelData.volunteering[1])
+        VolunteeringDetails(volunteering: modelData.volunteering[0])
             .environmentObject(modelData)
     }
 }

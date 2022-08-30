@@ -17,7 +17,7 @@ struct WorkExperienceDetails: View {
                 .ignoresSafeArea(edges: .top)
                 .frame(height: 300)
             
-            CircleImage(image: workExperience.image)
+            CircleImage(image: workExperience.image, padding: workExperience.padding)
                 .frame(width: 200, height: 200)
                 .offset(y: -130)
                 .padding(.bottom, -130)
@@ -28,7 +28,7 @@ struct WorkExperienceDetails: View {
                 HStack{
                     Text(workExperience.orgName)
                     Spacer()
-                    Text(workExperience.geoLocation)
+                    Text("\(workExperience.startDate) - \(workExperience.endDate)")
                 }
                 .font(.subheadline)
                 .foregroundColor(.secondary)
@@ -50,7 +50,7 @@ struct WorkExperienceDetails_Previews: PreviewProvider {
     static let modelData = ModelData()
     
     static var previews: some View {
-        WorkExperienceDetails(workExperience: modelData.workExperience[0])
+        WorkExperienceDetails(workExperience: modelData.workExperience[5])
             .environmentObject(modelData)
     }
 }

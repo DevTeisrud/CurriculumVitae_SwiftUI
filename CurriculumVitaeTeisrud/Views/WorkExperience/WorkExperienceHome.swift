@@ -18,7 +18,7 @@ struct WorkExperienceHome: View {
                     NavigationLink {
                         WorkExperienceDetails(workExperience: workExperience)
                     } label: {
-                        Text(workExperience.orgName)
+                        WorkExperienceItem(workExperience: workExperience)
                     }
 
                 }
