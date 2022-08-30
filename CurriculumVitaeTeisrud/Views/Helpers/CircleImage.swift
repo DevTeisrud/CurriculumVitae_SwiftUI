@@ -9,14 +9,22 @@ import SwiftUI
 
 struct CircleImage: View {
     var image: Image
+    var padding: Bool = false
     
     var body: some View {
         ZStack{
             Color.white
                 .ignoresSafeArea()
-            image
-                .resizable()
-                .aspectRatio(contentMode: .fit)
+            if padding{
+                image
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .padding()
+            }else{
+                image
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+            }
         }
         .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
         .overlay {

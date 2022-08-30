@@ -4,6 +4,7 @@
         "orgName": "Indøk Sør",
         "role": "Event Manager",
         "imageName": "IndokSorLogoShort",
+        "geoLocation": "Grimstad",
         "coordinates": {
             "longitude": 8.57768,
             "latitude": 58.33397
@@ -15,6 +16,7 @@
         "orgName": "Søgne Skolekorps",
         "role": "TODO",
         "imageName": "SongeSkolekorpsLogoLong",
+        "geoLocation": "Søgne",
         "coordinates": {
             "longitude": 7.76550,
             "latitude": 58.10169

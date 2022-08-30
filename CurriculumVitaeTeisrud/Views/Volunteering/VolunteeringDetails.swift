@@ -18,7 +18,7 @@ struct VolunteeringDetails: View {
                 .ignoresSafeArea(edges: .top)
                 .frame(height: 300)
             
-            CircleImage(image: volunteering.image)
+            CircleImage(image: volunteering.image, padding: true)
                 .frame(width: 200, height: 200)
                 .offset(y: -130)
                 .padding(.bottom, -130)
@@ -26,9 +26,14 @@ struct VolunteeringDetails: View {
             VStack(alignment: .leading) {
                 Text(volunteering.role)
                     .font(.title)
-                Text(volunteering.orgName)
-                    .font(.subheadline)
-                    .foregroundColor(.secondary)
+                
+                HStack{
+                    Text(volunteering.orgName)
+                    Spacer()
+                    Text(volunteering.geoLocation)
+                }
+                .font(.subheadline)
+                .foregroundColor(.secondary)
 
                 Divider()
 
@@ -47,7 +52,7 @@ struct VolunteeringDetails_Previews: PreviewProvider {
     static let modelData = ModelData()
     
     static var previews: some View {
-        VolunteeringDetails(volunteering: modelData.volunteering[0])
+        VolunteeringDetails(volunteering: modelData.volunteering[1])
             .environmentObject(modelData)
     }
 }

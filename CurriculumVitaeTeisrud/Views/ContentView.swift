@@ -26,15 +26,15 @@ struct ContentView: View {
                 }
                 .tag(Tab.education)
 
-            Text("Work Experience")
+            WorkExperienceHome()
                 .tabItem {
-                    Label("Work Experience", systemImage: "star")
+                    Label("Work Experience", systemImage: "suitcase")
                 }
                 .tag(Tab.workExperience)
             
             VolunteeringHome()
                 .tabItem {
-                    Label("Volunteering", systemImage: "star")
+                    Label("Volunteering", systemImage: "figure.wave")
                 }
                 .tag(Tab.volunteering)
             

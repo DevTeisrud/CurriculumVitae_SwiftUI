@@ -13,6 +13,7 @@ struct Educations: Hashable, Codable, Identifiable {
     var id: Int
     var orgName: String
     var role: String
+    var geoLocation: String
     var description: String
 
     private var imageName: String

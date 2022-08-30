@@ -30,4 +30,11 @@ struct Profile: Hashable, Codable, Identifiable {
         var latitude: Double
         var longitude: Double
     }
+    
+    var threeWords: ThreeWords
+    struct ThreeWords: Hashable, Codable {
+        var ambitious: String
+        var precise: String
+        var teambuilder: String
+    }
 }

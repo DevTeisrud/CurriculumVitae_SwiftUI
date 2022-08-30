@@ -26,15 +26,21 @@ struct ProfilePage: View {
             VStack(alignment: .leading) {
                 Text(profile.name)
                     .font(.title)
-                Text("B.Sc Computer Science")
-                    .font(.subheadline)
-                    .foregroundColor(.secondary)
+                HStack{
+                    Text("Master of science Student")
+                    Spacer()
+                    Text("University of Agder")
+                }
+                .font(.subheadline)
+                .foregroundColor(.secondary)
 
                 Divider()
 
                 Text("About me")
                     .font(.title2)
                 Text(profile.description)
+                
+                ThreeWords(profile: profile)
             }
             .padding()
         }
@@ -49,5 +55,29 @@ struct ProfilePage_Previews: PreviewProvider {
     static var previews: some View {
         ProfilePage(profile: modelData.profile[0])
             .environmentObject(modelData)
+    }
+}
+
+struct ThreeWords: View {
+    var profile: Profile
+    
+    var body: some View {
+        VStack(alignment: .leading) {
+            Text("Described in three words:")
+                .font(.title2)
+            Text("Ambitious")
+                .font(.title3)
+            Text(profile.threeWords.ambitious)
+                .padding(.leading)
+            Text("Precise")
+                .font(.title3)
+            Text(profile.threeWords.precise)
+                .padding(.leading)
+            Text("Teambuilder")
+                .font(.title3)
+            Text(profile.threeWords.teambuilder)
+                .padding(.leading)
+        }
+        .padding(.vertical)
     }
 }

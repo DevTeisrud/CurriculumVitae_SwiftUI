@@ -9,11 +9,11 @@ import SwiftUI
 
 struct EducationsHome: View {
     @EnvironmentObject var modelData: ModelData
-    @State private var selectededucation: Educations?
+    @State private var selectedEducation: Educations?
     
     var body: some View {
         NavigationView {
-            List(selection: $selectededucation) {
+            List(selection: $selectedEducation) {
                 ForEach(modelData.educations, id: \.self) { education in
                     NavigationLink {
                         EducationsDetails(education: education)

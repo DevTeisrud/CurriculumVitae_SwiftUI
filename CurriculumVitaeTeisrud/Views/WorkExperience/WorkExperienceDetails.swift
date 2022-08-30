@@ -1,5 +1,5 @@
 //
-//  EducationsDetails.swift
+//  WorkExperienceDetails.swift
 //  CurriculumVitaeTeisrud
 //
 //  Created by Bjørn Kristian Teisrud on 30/08/2022.
@@ -7,50 +7,50 @@
 
 import SwiftUI
 
-struct EducationsDetails: View {
+struct WorkExperienceDetails: View {
     @EnvironmentObject var modelData: ModelData
-    var education: Educations
+    var workExperience: WorkExperience
     
     var body: some View {
         ScrollView {
-            MapView(coordinate: education.locationCoordinate)
+            MapView(coordinate: workExperience.locationCoordinate)
                 .ignoresSafeArea(edges: .top)
                 .frame(height: 300)
             
-            CircleImage(image: education.image, padding: true)
+            CircleImage(image: workExperience.image)
                 .frame(width: 200, height: 200)
                 .offset(y: -130)
                 .padding(.bottom, -130)
             
             VStack(alignment: .leading) {
-                Text(education.role)
+                Text(workExperience.role)
                     .font(.title)
                 HStack{
-                    Text(education.orgName)
+                    Text(workExperience.orgName)
                     Spacer()
-                    Text(education.geoLocation)
+                    Text(workExperience.geoLocation)
                 }
                 .font(.subheadline)
                 .foregroundColor(.secondary)
 
                 Divider()
 
-                Text("About \(education.orgName)")
+                Text("About \(workExperience.orgName)")
                     .font(.title2)
-                Text(education.description)
+                Text(workExperience.description)
             }
             .padding()
         }
-        .navigationTitle(education.orgName)
+        .navigationTitle(workExperience.orgName)
         .navigationBarTitleDisplayMode(.inline)
     }
 }
 
-struct EducationsDetails_Previews: PreviewProvider {
+struct WorkExperienceDetails_Previews: PreviewProvider {
     static let modelData = ModelData()
     
     static var previews: some View {
-        EducationsDetails(education: modelData.educations[0])
+        WorkExperienceDetails(workExperience: modelData.workExperience[0])
             .environmentObject(modelData)
     }
 }

@@ -3,7 +3,8 @@
         "id": 1006,
         "orgName": "University of Agder",
         "role": "M.Sc Industrial Economics and Technology Management",
-        "imageName": "UiALogoLong",
+        "imageName": "UiALogoLongEnglish",
+        "geoLocation": "Grimstad",
         "coordinates": {
             "longitude": 8.57768,
             "latitude": 58.33397
@@ -14,7 +15,8 @@
         "id": 1007,
         "orgName": "University of Stavanger",
         "role": "B.Sc Computer Science",
-        "imageName": "UiSLogoShortBlue",
+        "imageName": "UiSLogoLong",
+        "geoLocation": "Stavanger",
         "coordinates": {
             "longitude": 5.69736,
             "latitude": 58.93746
