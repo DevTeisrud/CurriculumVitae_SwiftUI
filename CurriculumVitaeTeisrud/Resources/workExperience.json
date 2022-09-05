@@ -12,7 +12,8 @@
             "longitude": 10.62738,
             "latitude": 59.89928
         },
-        "description": "Summer Intern on the project 'BSS(IT) to Cloud'. On this project, we were three people who had to find a method to make Telenor's applications and digital infrastructure more robust. We then integrated Chaos Engineering into the digital intrastructure of Telenor. Regardless of how much error and chaos you add to an application, errors will still occur in the future. Furthermore, during the internship, we developed a more advanced alerting system that enables Telenor to become aware of errors that occur on your digital infrastructure, much faster than before."
+        "description": "Summer Intern on the project 'BSS(IT) to Cloud'. On this project, we were three people who had to find a method to make Telenor's applications and digital infrastructure more robust. We then integrated Chaos Engineering into the digital intrastructure of Telenor. Regardless of how much error and chaos you add to an application, errors will still occur in the future. Furthermore, during the internship, we developed a more advanced alerting system that enables Telenor to become aware of errors that occur on your digital infrastructure, much faster than before.",
+        "skills": ["Teamarbeid", "Chaos Engineering", "Kubernetes", "Terraform", "Azure Chaos Studio", "Docker", "Programmering", "Python", "Go", "Windows", "PowerPoint", "Git"]
     },
     {
         "id": 1005,
@@ -27,7 +28,8 @@
             "longitude": 5.69736,
             "latitude": 58.93746
         },
-        "description": "Was employed after submitting the bachelor's thesis. Here I continue to develop our bachelor's thesis 'QuickFeed', which is an automatic correcting system for assignments and exams in programming."
+        "description": "Was employed after submitting the bachelor's thesis. Here I continue to develop our bachelor's thesis 'QuickFeed', which is an automatic correcting system for assignments and exams in programming.",
+        "skills": ["gRPC", "Teamarbeid", "Docker", "Programmering", "SwiftUI", "Go", "Golang", "MacOS", "iOS", "iOS utvikling", "Swift", "Git"]
     },
     {
         "id": 1006,
@@ -42,7 +44,8 @@
             "longitude": 7.97125,
             "latitude": 58.13878
         },
-        "description": "Two summer seasons as holiday substitute at Glencore Nikkelverk AS. Here I worked in a central part of their production."
+        "description": "Two summer seasons as holiday substitute at Glencore Nikkelverk AS. Here I worked in a central part of their production.",
+        "skills": []
     },
     {
         "id": 1007,
@@ -57,7 +60,8 @@
             "longitude": 7.81806,
             "latitude": 58.09193
         },
-        "description": "Salesman in the building materials industry. Main focus: Building materials, Paint, Tools etc..."
+        "description": "Salesman in the building materials industry. Main focus: Building materials, Paint, Tools etc...",
+        "skills": []
     },
     {
         "id": 1008,
@@ -72,7 +76,8 @@
             "longitude": 7.79842,
             "latitude": 58.08033
         },
-        "description": "Surface treatment of solid floors in the evening if necessary."
+        "description": "Surface treatment of solid floors in the evening if necessary.",
+        "skills": []
     },
     {
         "id": 1009,
@@ -87,7 +92,8 @@
             "longitude": 7.95934,
             "latitude": 58.13645
         },
-        "description": "Responsible for the main warehouse at Trine På Gården AS."
+        "description": "Responsible for the main warehouse at Trine På Gården AS.",
+        "skills": []
     },
     {
         "id": 1010,
@@ -102,6 +108,7 @@
             "longitude": 7.76550,
             "latitude": 58.10169
         },
-        "description": "Responsible for teaching the percussion groups at all levels. At the band's concerts, I was responsible for rigging and programming the lights."
+        "description": "Responsible for teaching the percussion groups at all levels. At the band's concerts, I was responsible for rigging and programming the lights.",
+        "skills": []
     }
 ]

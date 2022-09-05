@@ -18,6 +18,7 @@ struct WorkExperience: Hashable, Codable, Identifiable {
     var endDate: String
     var padding: Bool
     var description: String
+    var skills: [String]
 
     private var imageName: String
     var image: Image {

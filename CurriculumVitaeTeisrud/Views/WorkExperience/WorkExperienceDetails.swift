@@ -34,6 +34,18 @@ struct WorkExperienceDetails: View {
                 .foregroundColor(.secondary)
 
                 Divider()
+                
+                if workExperience.skills != []{
+                    Text("Skills")
+                        .font(.title2)
+                    ScrollView (.horizontal, showsIndicators: false) {
+                         HStack {
+                             ForEach(workExperience.skills, id: \.self){ skill in
+                                 Skill(skill: skill)
+                             }
+                         }
+                    }
+                }
 
                 Text("About \(workExperience.orgName)")
                     .font(.title2)
@@ -50,7 +62,7 @@ struct WorkExperienceDetails_Previews: PreviewProvider {
     static let modelData = ModelData()
     
     static var previews: some View {
-        WorkExperienceDetails(workExperience: modelData.workExperience[5])
+        WorkExperienceDetails(workExperience: modelData.workExperience[0])
             .environmentObject(modelData)
     }
 }

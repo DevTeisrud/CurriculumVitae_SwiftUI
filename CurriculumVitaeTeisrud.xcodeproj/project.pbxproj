@@ -53,6 +53,7 @@
 		D04C3D0828BD8D7300523B0C /* VolunteeringDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3D0728BD8D7300523B0C /* VolunteeringDetails.swift */; };
 		D04C3D0B28BD929300523B0C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3D0A28BD929300523B0C /* ModelData.swift */; };
 		D04C3D0D28BD92ED00523B0C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3D0C28BD92ED00523B0C /* Profile.swift */; };
+		D05FF44328C6B6FD0027A5AE /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05FF44228C6B6FD0027A5AE /* Skill.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,7 @@
 		D04C3D0728BD8D7300523B0C /* VolunteeringDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteeringDetails.swift; sourceTree = "<group>"; };
 		D04C3D0A28BD929300523B0C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		D04C3D0C28BD92ED00523B0C /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		D05FF44228C6B6FD0027A5AE /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 			children = (
 				D04C3CFA28BD793A00523B0C /* MapView.swift */,
 				D04C3CFF28BD7C6D00523B0C /* CircleImage.swift */,
+				D05FF44228C6B6FD0027A5AE /* Skill.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				D01268A828BE046A0041A9AC /* EducationsDetails.swift in Sources */,
 				D04C3D0D28BD92ED00523B0C /* Profile.swift in Sources */,
 				D04C3CF828BD785F00523B0C /* ProfilePage.swift in Sources */,
+				D05FF44328C6B6FD0027A5AE /* Skill.swift in Sources */,
 				D04C3D0B28BD929300523B0C /* ModelData.swift in Sources */,
 				D01268AE28BE6BAF0041A9AC /* WorkExperienceItem.swift in Sources */,
 				D04C3CFB28BD793A00523B0C /* MapView.swift in Sources */,
