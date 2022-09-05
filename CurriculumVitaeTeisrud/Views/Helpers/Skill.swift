@@ -13,7 +13,7 @@ struct Skill: View {
     var body: some View {
         Text(skill)
             .padding(6)
-            .background(Color.secondary)
+            .background(Color(red: 0.4627, green: 0.8392, blue: 1.0))
             .cornerRadius(10)
     }
 }

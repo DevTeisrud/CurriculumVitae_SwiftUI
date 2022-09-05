@@ -35,7 +35,7 @@ struct WorkExperienceDetails: View {
 
                 Divider()
                 
-                if workExperience.skills != []{
+                if workExperience.skills != [] {
                     Text("Skills")
                         .font(.title2)
                     ScrollView (.horizontal, showsIndicators: false) {
