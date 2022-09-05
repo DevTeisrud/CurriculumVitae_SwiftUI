@@ -13,7 +13,7 @@ struct WorkExperienceDetails: View {
     
     var body: some View {
         ScrollView {
-            MapView(coordinate: workExperience.locationCoordinate)
+            MapView(name: workExperience.orgName,coordinate: workExperience.locationCoordinate)
                 .ignoresSafeArea(edges: .top)
                 .frame(height: 300)
             

@@ -9,7 +9,13 @@ import SwiftUI
 import MapKit
 
 struct MapView: View {
+    var name: String
     var coordinate: CLLocationCoordinate2D
+    var locations : [Location] {
+            get {
+             return [Location(name: name, coordinate: coordinate)]
+            }
+        }
 
     @AppStorage("MapView.zoom")
     private var zoom: Zoom = .medium
@@ -31,9 +37,17 @@ struct MapView: View {
         case .far: return 2
         }
     }
+    
+    struct Location: Identifiable {
+        let id = UUID()
+        let name: String
+        let coordinate: CLLocationCoordinate2D
+    }
 
     var body: some View {
-        Map(coordinateRegion: .constant(region))
+        Map(coordinateRegion: .constant(region), annotationItems: locations){ location in
+            MapMarker(coordinate: location.coordinate)
+        }
     }
 
     var region: MKCoordinateRegion {
@@ -46,6 +60,6 @@ struct MapView: View {
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        MapView(coordinate: CLLocationCoordinate2D(latitude: 58.13635, longitude: 7.99771))
+        MapView(name: "Test",coordinate: CLLocationCoordinate2D(latitude: 58.13635, longitude: 7.99771))
     }
 }

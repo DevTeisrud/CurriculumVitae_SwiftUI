@@ -14,7 +14,7 @@ struct ProfilePage: View {
     
     var body: some View {
         ScrollView {
-            MapView(coordinate: profile.locationCoordinate)
+            MapView(name: profile.name, coordinate: profile.locationCoordinate)
                 .ignoresSafeArea(edges: .top)
                 .frame(height: 300)
             

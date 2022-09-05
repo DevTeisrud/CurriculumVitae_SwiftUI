@@ -14,7 +14,7 @@ struct VolunteeringDetails: View {
     
     var body: some View {
         ScrollView {
-            MapView(coordinate: volunteering.locationCoordinate)
+            MapView(name: volunteering.orgName, coordinate: volunteering.locationCoordinate)
                 .ignoresSafeArea(edges: .top)
                 .frame(height: 300)
             

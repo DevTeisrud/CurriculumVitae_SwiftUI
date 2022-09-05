@@ -13,7 +13,7 @@ struct EducationsDetails: View {
     
     var body: some View {
         ScrollView {
-            MapView(coordinate: education.locationCoordinate)
+            MapView(name: education.orgName, coordinate: education.locationCoordinate)
                 .ignoresSafeArea(edges: .top)
                 .frame(height: 300)
             
