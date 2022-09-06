@@ -17,8 +17,9 @@ struct Educations: Hashable, Codable, Identifiable {
     var geoLocation: String
     var startDate: String
     var endDate: String
-    var description: String
-    var studyDesc: String
+    var universityDescription: String
+    var studyDescription: String
+    var skills: [String]
 
     private var imageName: String
     var image: Image {

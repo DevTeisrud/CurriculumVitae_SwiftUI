@@ -54,6 +54,7 @@
 		D04C3D0B28BD929300523B0C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3D0A28BD929300523B0C /* ModelData.swift */; };
 		D04C3D0D28BD92ED00523B0C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3D0C28BD92ED00523B0C /* Profile.swift */; };
 		D05FF44328C6B6FD0027A5AE /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05FF44228C6B6FD0027A5AE /* Skill.swift */; };
+		D05FF44428C6C02A0027A5AE /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05FF44228C6B6FD0027A5AE /* Skill.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -355,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D05FF44428C6C02A0027A5AE /* Skill.swift in Sources */,
 				D01268D728BE76270041A9AC /* EducationsHome.swift in Sources */,
 				D01268D828BE76270041A9AC /* EducationsItem.swift in Sources */,
 				D01268D928BE76270041A9AC /* EducationsDetails.swift in Sources */,

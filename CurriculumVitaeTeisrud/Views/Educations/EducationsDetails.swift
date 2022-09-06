@@ -35,9 +35,26 @@ struct EducationsDetails: View {
 
                 Divider()
                 
+                if education.skills != [] {
+                    Text("Skills")
+                        .font(.title2)
+                    ScrollView (.horizontal, showsIndicators: false) {
+                         HStack {
+                             ForEach(education.skills, id: \.self){ skill in
+                                 Skill(skill: skill)
+                             }
+                         }
+                    }
+                }
+                
                 Text("About the study programme")
                     .font(.title2)
-                Text(education.studyDesc)
+                Text(education.studyDescription)
+                    .padding(.bottom)
+                
+                Text("About \(education.orgName)")
+                    .font(.title2)
+                Text(education.universityDescription)
                     .padding(.bottom)
             }
             .padding()

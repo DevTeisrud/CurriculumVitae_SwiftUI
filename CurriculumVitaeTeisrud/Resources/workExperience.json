@@ -29,7 +29,7 @@
             "latitude": 58.93746
         },
         "description": "Was employed after submitting the bachelor's thesis. Here I continue to develop our bachelor's thesis 'QuickFeed', which is an automatic correcting system for assignments and exams in programming.",
-        "skills": ["gRPC", "Teamarbeid", "Docker", "Programmering", "SwiftUI", "Go", "Golang", "MacOS", "iOS", "iOS utvikling", "Swift", "Git"]
+        "skills": ["SwiftUI", "Swift", "Go", "Golang", "gRPC", "Docker", "Git", "Programmering", "iOS", "iOS developing", "MacOS", "Teamwork"]
     },
     {
         "id": 1006,

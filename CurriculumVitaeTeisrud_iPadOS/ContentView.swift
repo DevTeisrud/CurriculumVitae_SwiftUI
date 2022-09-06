@@ -32,7 +32,7 @@ struct ContentView: View {
                 }
                 .tag(Tab.workExperience)
             
-            VolunteeringHome()
+            VolunteeringDetails(volunteering: modelData.volunteering[0])
                 .tabItem {
                     Label("Volunteering", systemImage: "figure.wave")
                 }
