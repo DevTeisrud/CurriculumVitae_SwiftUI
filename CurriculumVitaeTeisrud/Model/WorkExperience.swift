@@ -24,6 +24,11 @@ struct WorkExperience: Hashable, Codable, Identifiable {
     var image: Image {
         Image(imageName)
     }
+    
+    private var bannerName: String
+    var banner: Image {
+        Image(bannerName)
+    }
 
     private var coordinates: Coordinates
     var locationCoordinate: CLLocationCoordinate2D {

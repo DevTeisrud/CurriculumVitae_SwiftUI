@@ -1,5 +1,5 @@
 //
-//  EducationsItem.swift
+//  EducationsListItem.swift
 //  CurriculumVitaeTeisrud
 //
 //  Created by Bjørn Kristian Teisrud on 30/08/2022.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct EducationsItem: View {
+struct EducationsListItem: View {
     var educations: Educations
     
     var body: some View {
@@ -34,8 +34,8 @@ struct EducationsItem: View {
     }
 }
 
-struct EducationsItem_Previews: PreviewProvider {
+struct EducationsListItem_Previews: PreviewProvider {
     static var previews: some View {
-        EducationsItem(educations: ModelData().educations[0])
+        EducationsListItem(educations: ModelData().educations[0])
     }
 }

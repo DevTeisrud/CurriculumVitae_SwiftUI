@@ -9,22 +9,38 @@ import SwiftUI
 
 struct EducationsHome: View {
     @EnvironmentObject var modelData: ModelData
-    @State private var selectedEducation: Educations?
+    @State private var listView = false
     
     var body: some View {
         NavigationView {
-            List(selection: $selectedEducation) {
-                ForEach(modelData.educations, id: \.self) { education in
-                    NavigationLink {
-                        EducationsDetails(education: education)
+            if listView{
+                List(){
+                    EducationsList()
+                        .environmentObject(modelData)
+                }
+                .listStyle(.inset)
+                .navigationTitle("Educations")
+                .toolbar {
+                    Button {
+                        listView.toggle()
                     } label: {
-                        EducationsItem(educations: education)
+                        Label("rectangleView", systemImage: "rectangle.grid.1x2.fill")
                     }
-
+                }
+            } else {
+                List(){
+                    EducationsRectangleList()
+                        .environmentObject(modelData)
+                }
+                .navigationTitle("Educations")
+                .toolbar {
+                    Button {
+                        listView.toggle()
+                    } label: {
+                        Label("ListView", systemImage: "list.dash")
+                    }
                 }
             }
-            .listStyle(.inset)
-            .navigationTitle("Educations")
         }
     }
 }

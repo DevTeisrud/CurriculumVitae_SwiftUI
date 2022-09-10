@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D001236728CCC17E001385DD /* EducationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D001236628CCC17D001385DD /* EducationsList.swift */; };
+		D001236828CCC17E001385DD /* EducationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D001236628CCC17D001385DD /* EducationsList.swift */; };
 		D012689828BDF3410041A9AC /* profile.json in Resources */ = {isa = PBXBuildFile; fileRef = D012689528BDF3410041A9AC /* profile.json */; };
 		D012689A28BDF3410041A9AC /* workExperience.json in Resources */ = {isa = PBXBuildFile; fileRef = D012689728BDF3410041A9AC /* workExperience.json */; };
 		D012689C28BDF3460041A9AC /* educations.json in Resources */ = {isa = PBXBuildFile; fileRef = D012689B28BDF3460041A9AC /* educations.json */; };
@@ -19,12 +21,12 @@
 		D01268AA28BE18820041A9AC /* WorkExperienceHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268A928BE18820041A9AC /* WorkExperienceHome.swift */; };
 		D01268AC28BE21EC0041A9AC /* WorkExperienceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268AB28BE21EC0041A9AC /* WorkExperienceDetails.swift */; };
 		D01268AE28BE6BAF0041A9AC /* WorkExperienceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268AD28BE6BAF0041A9AC /* WorkExperienceItem.swift */; };
-		D01268B028BE6C370041A9AC /* EducationsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268AF28BE6C370041A9AC /* EducationsItem.swift */; };
+		D01268B028BE6C370041A9AC /* EducationsListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268AF28BE6C370041A9AC /* EducationsListItem.swift */; };
 		D01268CA28BE75A40041A9AC /* CurriculumVitaeTeisrud_iPadOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268C928BE75A40041A9AC /* CurriculumVitaeTeisrud_iPadOSApp.swift */; };
 		D01268CC28BE75A40041A9AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268CB28BE75A40041A9AC /* ContentView.swift */; };
 		D01268D128BE75A60041A9AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01268D028BE75A60041A9AC /* Preview Assets.xcassets */; };
 		D01268D728BE76270041A9AC /* EducationsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268A528BE04580041A9AC /* EducationsHome.swift */; };
-		D01268D828BE76270041A9AC /* EducationsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268AF28BE6C370041A9AC /* EducationsItem.swift */; };
+		D01268D828BE76270041A9AC /* EducationsListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268AF28BE6C370041A9AC /* EducationsListItem.swift */; };
 		D01268D928BE76270041A9AC /* EducationsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268A728BE046A0041A9AC /* EducationsDetails.swift */; };
 		D01268DA28BE76270041A9AC /* WorkExperienceHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268A928BE18820041A9AC /* WorkExperienceHome.swift */; };
 		D01268DB28BE76270041A9AC /* WorkExperienceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268AD28BE6BAF0041A9AC /* WorkExperienceItem.swift */; };
@@ -43,6 +45,10 @@
 		D01268EA28BE76C50041A9AC /* volunteering.json in Resources */ = {isa = PBXBuildFile; fileRef = D012689D28BDF3A40041A9AC /* volunteering.json */; };
 		D01268EB28BE76C50041A9AC /* profile.json in Resources */ = {isa = PBXBuildFile; fileRef = D012689528BDF3410041A9AC /* profile.json */; };
 		D01268EC28BE76E40041A9AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04C3CEA28BD744A00523B0C /* Assets.xcassets */; };
+		D022416928CCD6D000081F08 /* EducationsRectangleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022416828CCD6D000081F08 /* EducationsRectangleList.swift */; };
+		D022416A28CCD6D000081F08 /* EducationsRectangleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022416828CCD6D000081F08 /* EducationsRectangleList.swift */; };
+		D022416C28CCD76E00081F08 /* EducationsRectangleListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022416B28CCD76E00081F08 /* EducationsRectangleListItem.swift */; };
+		D022416D28CCD76E00081F08 /* EducationsRectangleListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022416B28CCD76E00081F08 /* EducationsRectangleListItem.swift */; };
 		D04C3CE728BD744800523B0C /* CurriculumVitaeTeisrudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3CE628BD744800523B0C /* CurriculumVitaeTeisrudApp.swift */; };
 		D04C3CE928BD744800523B0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3CE828BD744800523B0C /* ContentView.swift */; };
 		D04C3CEB28BD744A00523B0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04C3CEA28BD744A00523B0C /* Assets.xcassets */; };
@@ -58,6 +64,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D001236628CCC17D001385DD /* EducationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationsList.swift; sourceTree = "<group>"; };
 		D012689528BDF3410041A9AC /* profile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = profile.json; sourceTree = "<group>"; };
 		D012689728BDF3410041A9AC /* workExperience.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = workExperience.json; sourceTree = "<group>"; };
 		D012689B28BDF3460041A9AC /* educations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = educations.json; sourceTree = "<group>"; };
@@ -70,12 +77,14 @@
 		D01268A928BE18820041A9AC /* WorkExperienceHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkExperienceHome.swift; sourceTree = "<group>"; };
 		D01268AB28BE21EC0041A9AC /* WorkExperienceDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkExperienceDetails.swift; sourceTree = "<group>"; };
 		D01268AD28BE6BAF0041A9AC /* WorkExperienceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkExperienceItem.swift; sourceTree = "<group>"; };
-		D01268AF28BE6C370041A9AC /* EducationsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationsItem.swift; sourceTree = "<group>"; };
+		D01268AF28BE6C370041A9AC /* EducationsListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationsListItem.swift; sourceTree = "<group>"; };
 		D01268C728BE75A40041A9AC /* CurriculumVitaeTeisrud_iPadOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurriculumVitaeTeisrud_iPadOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01268C928BE75A40041A9AC /* CurriculumVitaeTeisrud_iPadOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurriculumVitaeTeisrud_iPadOSApp.swift; sourceTree = "<group>"; };
 		D01268CB28BE75A40041A9AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D01268CD28BE75A60041A9AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D01268D028BE75A60041A9AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D022416828CCD6D000081F08 /* EducationsRectangleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationsRectangleList.swift; sourceTree = "<group>"; };
+		D022416B28CCD76E00081F08 /* EducationsRectangleListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationsRectangleListItem.swift; sourceTree = "<group>"; };
 		D04C3CE328BD744800523B0C /* CurriculumVitaeTeisrud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurriculumVitaeTeisrud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04C3CE628BD744800523B0C /* CurriculumVitaeTeisrudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurriculumVitaeTeisrudApp.swift; sourceTree = "<group>"; };
 		D04C3CE828BD744800523B0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -125,6 +134,24 @@
 				D01268D028BE75A60041A9AC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D022416E28CCD7CF00081F08 /* RectangleView */ = {
+			isa = PBXGroup;
+			children = (
+				D022416828CCD6D000081F08 /* EducationsRectangleList.swift */,
+				D022416B28CCD76E00081F08 /* EducationsRectangleListItem.swift */,
+			);
+			path = RectangleView;
+			sourceTree = "<group>";
+		};
+		D022416F28CCD7E000081F08 /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				D001236628CCC17D001385DD /* EducationsList.swift */,
+				D01268AF28BE6C370041A9AC /* EducationsListItem.swift */,
+			);
+			path = ListView;
 			sourceTree = "<group>";
 		};
 		D04C3CDA28BD744800523B0C = {
@@ -191,7 +218,8 @@
 			isa = PBXGroup;
 			children = (
 				D01268A528BE04580041A9AC /* EducationsHome.swift */,
-				D01268AF28BE6C370041A9AC /* EducationsItem.swift */,
+				D022416E28CCD7CF00081F08 /* RectangleView */,
+				D022416F28CCD7E000081F08 /* ListView */,
 				D01268A728BE046A0041A9AC /* EducationsDetails.swift */,
 			);
 			path = Educations;
@@ -356,9 +384,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D022416A28CCD6D000081F08 /* EducationsRectangleList.swift in Sources */,
 				D05FF44428C6C02A0027A5AE /* Skill.swift in Sources */,
+				D001236828CCC17E001385DD /* EducationsList.swift in Sources */,
 				D01268D728BE76270041A9AC /* EducationsHome.swift in Sources */,
-				D01268D828BE76270041A9AC /* EducationsItem.swift in Sources */,
+				D01268D828BE76270041A9AC /* EducationsListItem.swift in Sources */,
 				D01268D928BE76270041A9AC /* EducationsDetails.swift in Sources */,
 				D01268DA28BE76270041A9AC /* WorkExperienceHome.swift in Sources */,
 				D01268DB28BE76270041A9AC /* WorkExperienceItem.swift in Sources */,
@@ -368,6 +398,7 @@
 				D01268E128BE76270041A9AC /* MapView.swift in Sources */,
 				D01268E228BE76270041A9AC /* CircleImage.swift in Sources */,
 				D01268E328BE76270041A9AC /* ModelData.swift in Sources */,
+				D022416D28CCD76E00081F08 /* EducationsRectangleListItem.swift in Sources */,
 				D01268E428BE76270041A9AC /* Eductaions.swift in Sources */,
 				D01268E528BE76270041A9AC /* WorkExperience.swift in Sources */,
 				D01268E628BE76270041A9AC /* Volunteering.swift in Sources */,
@@ -386,12 +417,15 @@
 				D04C3CF828BD785F00523B0C /* ProfilePage.swift in Sources */,
 				D05FF44328C6B6FD0027A5AE /* Skill.swift in Sources */,
 				D04C3D0B28BD929300523B0C /* ModelData.swift in Sources */,
+				D022416928CCD6D000081F08 /* EducationsRectangleList.swift in Sources */,
 				D01268AE28BE6BAF0041A9AC /* WorkExperienceItem.swift in Sources */,
+				D001236728CCC17E001385DD /* EducationsList.swift in Sources */,
 				D04C3CFB28BD793A00523B0C /* MapView.swift in Sources */,
 				D01268AA28BE18820041A9AC /* WorkExperienceHome.swift in Sources */,
 				D04C3D0828BD8D7300523B0C /* VolunteeringDetails.swift in Sources */,
 				D01268A628BE04580041A9AC /* EducationsHome.swift in Sources */,
-				D01268B028BE6C370041A9AC /* EducationsItem.swift in Sources */,
+				D022416C28CCD76E00081F08 /* EducationsRectangleListItem.swift in Sources */,
+				D01268B028BE6C370041A9AC /* EducationsListItem.swift in Sources */,
 				D01268A428BDFAEE0041A9AC /* Eductaions.swift in Sources */,
 				D04C3CE928BD744800523B0C /* ContentView.swift in Sources */,
 				D04C3CE728BD744800523B0C /* CurriculumVitaeTeisrudApp.swift in Sources */,
