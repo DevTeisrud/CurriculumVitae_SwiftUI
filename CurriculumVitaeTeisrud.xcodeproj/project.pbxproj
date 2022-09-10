@@ -109,7 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				D03A5DEC28CCF1AA0070C965 /* iOS */,
-				D03A5DED28CCF1AF0070C965 /* iPadOS */,
 				D03A5DDC28CCF1870070C965 /* macOS */,
 				D03A5DCD28CCF1850070C965 /* Shared */,
 				D03A5DD628CCF1870070C965 /* Products */,
@@ -152,13 +151,6 @@
 				D03A5E0B28CCF1CF0070C965 /* Views */,
 			);
 			path = iOS;
-			sourceTree = "<group>";
-		};
-		D03A5DED28CCF1AF0070C965 /* iPadOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = iPadOS;
 			sourceTree = "<group>";
 		};
 		D03A5DEE28CCF1C20070C965 /* Model */ = {
@@ -256,8 +248,8 @@
 		D03A5E1B28CCF1CF0070C965 /* RectangleView */ = {
 			isa = PBXGroup;
 			children = (
-				D03A5E1C28CCF1CF0070C965 /* EducationsRectangleListItem.swift */,
 				D03A5E1D28CCF1CF0070C965 /* EducationsRectangleList.swift */,
+				D03A5E1C28CCF1CF0070C965 /* EducationsRectangleListItem.swift */,
 			);
 			path = RectangleView;
 			sourceTree = "<group>";
@@ -265,8 +257,8 @@
 		D03A5E1E28CCF1CF0070C965 /* ListView */ = {
 			isa = PBXGroup;
 			children = (
-				D03A5E1F28CCF1CF0070C965 /* EducationsListItem.swift */,
 				D03A5E2028CCF1CF0070C965 /* EducationsList.swift */,
+				D03A5E1F28CCF1CF0070C965 /* EducationsListItem.swift */,
 			);
 			path = ListView;
 			sourceTree = "<group>";
