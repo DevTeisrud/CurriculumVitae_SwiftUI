@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D03A5DDE28CCF1870070C965 /* CurriculumVitaeTeisrudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5DCE28CCF1850070C965 /* CurriculumVitaeTeisrudApp.swift */; };
 		D03A5DDF28CCF1870070C965 /* CurriculumVitaeTeisrudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5DCE28CCF1850070C965 /* CurriculumVitaeTeisrudApp.swift */; };
 		D03A5DE128CCF1870070C965 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5DCF28CCF1850070C965 /* ContentView.swift */; };
 		D03A5DE228CCF1870070C965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03A5DD028CCF1870070C965 /* Assets.xcassets */; };
@@ -48,6 +47,7 @@
 		D03A5E3628CCF1CF0070C965 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5E2428CCF1CF0070C965 /* MapView.swift */; };
 		D03A5E3728CCF1CF0070C965 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5E2528CCF1CF0070C965 /* CircleImage.swift */; };
 		D03A5E3828CCF1CF0070C965 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5E2628CCF1CF0070C965 /* Skill.swift */; };
+		D041972E28CCF41E002CAE52 /* CurriculumVitaeTeisrudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041972D28CCF41E002CAE52 /* CurriculumVitaeTeisrudApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +84,7 @@
 		D03A5E2428CCF1CF0070C965 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		D03A5E2528CCF1CF0070C965 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		D03A5E2628CCF1CF0070C965 /* Skill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		D041972D28CCF41E002CAE52 /* CurriculumVitaeTeisrudApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurriculumVitaeTeisrudApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +148,7 @@
 		D03A5DEC28CCF1AA0070C965 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				D041972D28CCF41E002CAE52 /* CurriculumVitaeTeisrudApp.swift */,
 				D03A5E0B28CCF1CF0070C965 /* Views */,
 			);
 			path = iOS;
@@ -399,11 +401,11 @@
 				D03A5E2F28CCF1CF0070C965 /* EducationsHome.swift in Sources */,
 				D03A5DFB28CCF1C20070C965 /* WorkExperience.swift in Sources */,
 				D03A5E3528CCF1CF0070C965 /* ContentView.swift in Sources */,
+				D041972E28CCF41E002CAE52 /* CurriculumVitaeTeisrudApp.swift in Sources */,
 				D03A5E3428CCF1CF0070C965 /* EducationsDetails.swift in Sources */,
 				D03A5E3028CCF1CF0070C965 /* EducationsRectangleListItem.swift in Sources */,
 				D03A5E2A28CCF1CF0070C965 /* WorkExperienceList.swift in Sources */,
 				D03A5E3728CCF1CF0070C965 /* CircleImage.swift in Sources */,
-				D03A5DDE28CCF1870070C965 /* CurriculumVitaeTeisrudApp.swift in Sources */,
 				D03A5E2E28CCF1CF0070C965 /* VolunteeringDetails.swift in Sources */,
 				D03A5E2D28CCF1CF0070C965 /* ProfilePage.swift in Sources */,
 				D03A5E2928CCF1CF0070C965 /* WorkExperienceRectangleListItem.swift in Sources */,
