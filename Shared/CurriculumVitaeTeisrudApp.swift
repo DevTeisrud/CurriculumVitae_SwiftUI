@@ -1,8 +1,8 @@
 //
 //  CurriculumVitaeTeisrudApp.swift
-//  CurriculumVitaeTeisrud
+//  Shared
 //
-//  Created by Bjørn Kristian Teisrud on 30/08/2022.
+//  Created by Bjørn Kristian Teisrud on 10/09/2022.
 //
 
 import SwiftUI

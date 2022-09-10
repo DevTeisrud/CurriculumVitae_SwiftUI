@@ -7,74 +7,94 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D001236728CCC17E001385DD /* EducationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D001236628CCC17D001385DD /* EducationsList.swift */; };
-		D012689828BDF3410041A9AC /* profile.json in Resources */ = {isa = PBXBuildFile; fileRef = D012689528BDF3410041A9AC /* profile.json */; };
-		D012689A28BDF3410041A9AC /* workExperience.json in Resources */ = {isa = PBXBuildFile; fileRef = D012689728BDF3410041A9AC /* workExperience.json */; };
-		D012689C28BDF3460041A9AC /* educations.json in Resources */ = {isa = PBXBuildFile; fileRef = D012689B28BDF3460041A9AC /* educations.json */; };
-		D012689E28BDF3A40041A9AC /* volunteering.json in Resources */ = {isa = PBXBuildFile; fileRef = D012689D28BDF3A40041A9AC /* volunteering.json */; };
-		D01268A028BDF59E0041A9AC /* Volunteering.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012689F28BDF59E0041A9AC /* Volunteering.swift */; };
-		D01268A228BDFAE10041A9AC /* WorkExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268A128BDFAE10041A9AC /* WorkExperience.swift */; };
-		D01268A428BDFAEE0041A9AC /* Eductaions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268A328BDFAEE0041A9AC /* Eductaions.swift */; };
-		D01268A628BE04580041A9AC /* EducationsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268A528BE04580041A9AC /* EducationsHome.swift */; };
-		D01268A828BE046A0041A9AC /* EducationsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268A728BE046A0041A9AC /* EducationsDetails.swift */; };
-		D01268AA28BE18820041A9AC /* WorkExperienceHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268A928BE18820041A9AC /* WorkExperienceHome.swift */; };
-		D01268AC28BE21EC0041A9AC /* WorkExperienceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268AB28BE21EC0041A9AC /* WorkExperienceDetails.swift */; };
-		D01268AE28BE6BAF0041A9AC /* WorkExperienceListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268AD28BE6BAF0041A9AC /* WorkExperienceListItem.swift */; };
-		D01268B028BE6C370041A9AC /* EducationsListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268AF28BE6C370041A9AC /* EducationsListItem.swift */; };
-		D022416928CCD6D000081F08 /* EducationsRectangleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022416828CCD6D000081F08 /* EducationsRectangleList.swift */; };
-		D022416C28CCD76E00081F08 /* EducationsRectangleListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022416B28CCD76E00081F08 /* EducationsRectangleListItem.swift */; };
-		D022417228CCD8E900081F08 /* WorkExperienceRectangleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022417128CCD8E900081F08 /* WorkExperienceRectangleList.swift */; };
-		D022417528CCD95700081F08 /* WorkExperienceRectangleListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022417428CCD95700081F08 /* WorkExperienceRectangleListItem.swift */; };
-		D022417928CCDB7700081F08 /* WorkExperienceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022417828CCDB7700081F08 /* WorkExperienceList.swift */; };
-		D04C3CE728BD744800523B0C /* CurriculumVitaeTeisrudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3CE628BD744800523B0C /* CurriculumVitaeTeisrudApp.swift */; };
-		D04C3CE928BD744800523B0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3CE828BD744800523B0C /* ContentView.swift */; };
-		D04C3CEB28BD744A00523B0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04C3CEA28BD744A00523B0C /* Assets.xcassets */; };
-		D04C3CEE28BD744A00523B0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04C3CED28BD744A00523B0C /* Preview Assets.xcassets */; };
-		D04C3CF828BD785F00523B0C /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3CF728BD785F00523B0C /* ProfilePage.swift */; };
-		D04C3CFB28BD793A00523B0C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3CFA28BD793A00523B0C /* MapView.swift */; };
-		D04C3D0028BD7C6D00523B0C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3CFF28BD7C6D00523B0C /* CircleImage.swift */; };
-		D04C3D0828BD8D7300523B0C /* VolunteeringDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3D0728BD8D7300523B0C /* VolunteeringDetails.swift */; };
-		D04C3D0B28BD929300523B0C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3D0A28BD929300523B0C /* ModelData.swift */; };
-		D04C3D0D28BD92ED00523B0C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3D0C28BD92ED00523B0C /* Profile.swift */; };
-		D05FF44328C6B6FD0027A5AE /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05FF44228C6B6FD0027A5AE /* Skill.swift */; };
+		D03A5DDE28CCF1870070C965 /* CurriculumVitaeTeisrudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5DCE28CCF1850070C965 /* CurriculumVitaeTeisrudApp.swift */; };
+		D03A5DDF28CCF1870070C965 /* CurriculumVitaeTeisrudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5DCE28CCF1850070C965 /* CurriculumVitaeTeisrudApp.swift */; };
+		D03A5DE128CCF1870070C965 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5DCF28CCF1850070C965 /* ContentView.swift */; };
+		D03A5DE228CCF1870070C965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03A5DD028CCF1870070C965 /* Assets.xcassets */; };
+		D03A5DE328CCF1870070C965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03A5DD028CCF1870070C965 /* Assets.xcassets */; };
+		D03A5DF928CCF1C20070C965 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5DEF28CCF1C20070C965 /* Profile.swift */; };
+		D03A5DFA28CCF1C20070C965 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5DEF28CCF1C20070C965 /* Profile.swift */; };
+		D03A5DFB28CCF1C20070C965 /* WorkExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5DF028CCF1C20070C965 /* WorkExperience.swift */; };
+		D03A5DFC28CCF1C20070C965 /* WorkExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5DF028CCF1C20070C965 /* WorkExperience.swift */; };
+		D03A5DFD28CCF1C20070C965 /* Eductaions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5DF128CCF1C20070C965 /* Eductaions.swift */; };
+		D03A5DFE28CCF1C20070C965 /* Eductaions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5DF128CCF1C20070C965 /* Eductaions.swift */; };
+		D03A5DFF28CCF1C20070C965 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5DF228CCF1C20070C965 /* ModelData.swift */; };
+		D03A5E0028CCF1C20070C965 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5DF228CCF1C20070C965 /* ModelData.swift */; };
+		D03A5E0128CCF1C20070C965 /* Volunteering.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5DF328CCF1C20070C965 /* Volunteering.swift */; };
+		D03A5E0228CCF1C20070C965 /* Volunteering.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5DF328CCF1C20070C965 /* Volunteering.swift */; };
+		D03A5E0328CCF1C20070C965 /* volunteering.json in Resources */ = {isa = PBXBuildFile; fileRef = D03A5DF528CCF1C20070C965 /* volunteering.json */; };
+		D03A5E0428CCF1C20070C965 /* volunteering.json in Resources */ = {isa = PBXBuildFile; fileRef = D03A5DF528CCF1C20070C965 /* volunteering.json */; };
+		D03A5E0528CCF1C20070C965 /* educations.json in Resources */ = {isa = PBXBuildFile; fileRef = D03A5DF628CCF1C20070C965 /* educations.json */; };
+		D03A5E0628CCF1C20070C965 /* educations.json in Resources */ = {isa = PBXBuildFile; fileRef = D03A5DF628CCF1C20070C965 /* educations.json */; };
+		D03A5E0728CCF1C20070C965 /* workExperience.json in Resources */ = {isa = PBXBuildFile; fileRef = D03A5DF728CCF1C20070C965 /* workExperience.json */; };
+		D03A5E0828CCF1C20070C965 /* workExperience.json in Resources */ = {isa = PBXBuildFile; fileRef = D03A5DF728CCF1C20070C965 /* workExperience.json */; };
+		D03A5E0928CCF1C20070C965 /* profile.json in Resources */ = {isa = PBXBuildFile; fileRef = D03A5DF828CCF1C20070C965 /* profile.json */; };
+		D03A5E0A28CCF1C20070C965 /* profile.json in Resources */ = {isa = PBXBuildFile; fileRef = D03A5DF828CCF1C20070C965 /* profile.json */; };
+		D03A5E2728CCF1CF0070C965 /* WorkExperienceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5E0D28CCF1CF0070C965 /* WorkExperienceDetails.swift */; };
+		D03A5E2828CCF1CF0070C965 /* WorkExperienceRectangleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5E0F28CCF1CF0070C965 /* WorkExperienceRectangleList.swift */; };
+		D03A5E2928CCF1CF0070C965 /* WorkExperienceRectangleListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5E1028CCF1CF0070C965 /* WorkExperienceRectangleListItem.swift */; };
+		D03A5E2A28CCF1CF0070C965 /* WorkExperienceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5E1228CCF1CF0070C965 /* WorkExperienceList.swift */; };
+		D03A5E2B28CCF1CF0070C965 /* WorkExperienceListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5E1328CCF1CF0070C965 /* WorkExperienceListItem.swift */; };
+		D03A5E2C28CCF1CF0070C965 /* WorkExperienceHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5E1428CCF1CF0070C965 /* WorkExperienceHome.swift */; };
+		D03A5E2D28CCF1CF0070C965 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5E1628CCF1CF0070C965 /* ProfilePage.swift */; };
+		D03A5E2E28CCF1CF0070C965 /* VolunteeringDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5E1828CCF1CF0070C965 /* VolunteeringDetails.swift */; };
+		D03A5E2F28CCF1CF0070C965 /* EducationsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5E1A28CCF1CF0070C965 /* EducationsHome.swift */; };
+		D03A5E3028CCF1CF0070C965 /* EducationsRectangleListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5E1C28CCF1CF0070C965 /* EducationsRectangleListItem.swift */; };
+		D03A5E3128CCF1CF0070C965 /* EducationsRectangleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5E1D28CCF1CF0070C965 /* EducationsRectangleList.swift */; };
+		D03A5E3228CCF1CF0070C965 /* EducationsListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5E1F28CCF1CF0070C965 /* EducationsListItem.swift */; };
+		D03A5E3328CCF1CF0070C965 /* EducationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5E2028CCF1CF0070C965 /* EducationsList.swift */; };
+		D03A5E3428CCF1CF0070C965 /* EducationsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5E2128CCF1CF0070C965 /* EducationsDetails.swift */; };
+		D03A5E3528CCF1CF0070C965 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5E2228CCF1CF0070C965 /* ContentView.swift */; };
+		D03A5E3628CCF1CF0070C965 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5E2428CCF1CF0070C965 /* MapView.swift */; };
+		D03A5E3728CCF1CF0070C965 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5E2528CCF1CF0070C965 /* CircleImage.swift */; };
+		D03A5E3828CCF1CF0070C965 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A5E2628CCF1CF0070C965 /* Skill.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D001236628CCC17D001385DD /* EducationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationsList.swift; sourceTree = "<group>"; };
-		D012689528BDF3410041A9AC /* profile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = profile.json; sourceTree = "<group>"; };
-		D012689728BDF3410041A9AC /* workExperience.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = workExperience.json; sourceTree = "<group>"; };
-		D012689B28BDF3460041A9AC /* educations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = educations.json; sourceTree = "<group>"; };
-		D012689D28BDF3A40041A9AC /* volunteering.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = volunteering.json; sourceTree = "<group>"; };
-		D012689F28BDF59E0041A9AC /* Volunteering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volunteering.swift; sourceTree = "<group>"; };
-		D01268A128BDFAE10041A9AC /* WorkExperience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkExperience.swift; sourceTree = "<group>"; };
-		D01268A328BDFAEE0041A9AC /* Eductaions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eductaions.swift; sourceTree = "<group>"; };
-		D01268A528BE04580041A9AC /* EducationsHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationsHome.swift; sourceTree = "<group>"; };
-		D01268A728BE046A0041A9AC /* EducationsDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationsDetails.swift; sourceTree = "<group>"; };
-		D01268A928BE18820041A9AC /* WorkExperienceHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkExperienceHome.swift; sourceTree = "<group>"; };
-		D01268AB28BE21EC0041A9AC /* WorkExperienceDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkExperienceDetails.swift; sourceTree = "<group>"; };
-		D01268AD28BE6BAF0041A9AC /* WorkExperienceListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkExperienceListItem.swift; sourceTree = "<group>"; };
-		D01268AF28BE6C370041A9AC /* EducationsListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationsListItem.swift; sourceTree = "<group>"; };
-		D022416828CCD6D000081F08 /* EducationsRectangleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationsRectangleList.swift; sourceTree = "<group>"; };
-		D022416B28CCD76E00081F08 /* EducationsRectangleListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationsRectangleListItem.swift; sourceTree = "<group>"; };
-		D022417128CCD8E900081F08 /* WorkExperienceRectangleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkExperienceRectangleList.swift; sourceTree = "<group>"; };
-		D022417428CCD95700081F08 /* WorkExperienceRectangleListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkExperienceRectangleListItem.swift; sourceTree = "<group>"; };
-		D022417828CCDB7700081F08 /* WorkExperienceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkExperienceList.swift; sourceTree = "<group>"; };
-		D04C3CE328BD744800523B0C /* CurriculumVitaeTeisrud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurriculumVitaeTeisrud.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D04C3CE628BD744800523B0C /* CurriculumVitaeTeisrudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurriculumVitaeTeisrudApp.swift; sourceTree = "<group>"; };
-		D04C3CE828BD744800523B0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D04C3CEA28BD744A00523B0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D04C3CED28BD744A00523B0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D04C3CF728BD785F00523B0C /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
-		D04C3CFA28BD793A00523B0C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		D04C3CFF28BD7C6D00523B0C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
-		D04C3D0728BD8D7300523B0C /* VolunteeringDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteeringDetails.swift; sourceTree = "<group>"; };
-		D04C3D0A28BD929300523B0C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
-		D04C3D0C28BD92ED00523B0C /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
-		D05FF44228C6B6FD0027A5AE /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		D03A5DCE28CCF1850070C965 /* CurriculumVitaeTeisrudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurriculumVitaeTeisrudApp.swift; sourceTree = "<group>"; };
+		D03A5DCF28CCF1850070C965 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D03A5DD028CCF1870070C965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D03A5DD528CCF1870070C965 /* CurriculumVitaeTeisrud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurriculumVitaeTeisrud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03A5DDB28CCF1870070C965 /* CurriculumVitaeTeisrud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurriculumVitaeTeisrud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03A5DDD28CCF1870070C965 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		D03A5DEF28CCF1C20070C965 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		D03A5DF028CCF1C20070C965 /* WorkExperience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkExperience.swift; sourceTree = "<group>"; };
+		D03A5DF128CCF1C20070C965 /* Eductaions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Eductaions.swift; sourceTree = "<group>"; };
+		D03A5DF228CCF1C20070C965 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		D03A5DF328CCF1C20070C965 /* Volunteering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Volunteering.swift; sourceTree = "<group>"; };
+		D03A5DF528CCF1C20070C965 /* volunteering.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = volunteering.json; sourceTree = "<group>"; };
+		D03A5DF628CCF1C20070C965 /* educations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = educations.json; sourceTree = "<group>"; };
+		D03A5DF728CCF1C20070C965 /* workExperience.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = workExperience.json; sourceTree = "<group>"; };
+		D03A5DF828CCF1C20070C965 /* profile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = profile.json; sourceTree = "<group>"; };
+		D03A5E0D28CCF1CF0070C965 /* WorkExperienceDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkExperienceDetails.swift; sourceTree = "<group>"; };
+		D03A5E0F28CCF1CF0070C965 /* WorkExperienceRectangleList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkExperienceRectangleList.swift; sourceTree = "<group>"; };
+		D03A5E1028CCF1CF0070C965 /* WorkExperienceRectangleListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkExperienceRectangleListItem.swift; sourceTree = "<group>"; };
+		D03A5E1228CCF1CF0070C965 /* WorkExperienceList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkExperienceList.swift; sourceTree = "<group>"; };
+		D03A5E1328CCF1CF0070C965 /* WorkExperienceListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkExperienceListItem.swift; sourceTree = "<group>"; };
+		D03A5E1428CCF1CF0070C965 /* WorkExperienceHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkExperienceHome.swift; sourceTree = "<group>"; };
+		D03A5E1628CCF1CF0070C965 /* ProfilePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		D03A5E1828CCF1CF0070C965 /* VolunteeringDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolunteeringDetails.swift; sourceTree = "<group>"; };
+		D03A5E1A28CCF1CF0070C965 /* EducationsHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationsHome.swift; sourceTree = "<group>"; };
+		D03A5E1C28CCF1CF0070C965 /* EducationsRectangleListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationsRectangleListItem.swift; sourceTree = "<group>"; };
+		D03A5E1D28CCF1CF0070C965 /* EducationsRectangleList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationsRectangleList.swift; sourceTree = "<group>"; };
+		D03A5E1F28CCF1CF0070C965 /* EducationsListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationsListItem.swift; sourceTree = "<group>"; };
+		D03A5E2028CCF1CF0070C965 /* EducationsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationsList.swift; sourceTree = "<group>"; };
+		D03A5E2128CCF1CF0070C965 /* EducationsDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationsDetails.swift; sourceTree = "<group>"; };
+		D03A5E2228CCF1CF0070C965 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D03A5E2428CCF1CF0070C965 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		D03A5E2528CCF1CF0070C965 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		D03A5E2628CCF1CF0070C965 /* Skill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D04C3CE028BD744800523B0C /* Frameworks */ = {
+		D03A5DD228CCF1870070C965 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03A5DD828CCF1870070C965 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,199 +104,237 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D022416E28CCD7CF00081F08 /* RectangleView */ = {
+		D03A5DC828CCF1850070C965 = {
 			isa = PBXGroup;
 			children = (
-				D022416828CCD6D000081F08 /* EducationsRectangleList.swift */,
-				D022416B28CCD76E00081F08 /* EducationsRectangleListItem.swift */,
-			);
-			path = RectangleView;
-			sourceTree = "<group>";
-		};
-		D022416F28CCD7E000081F08 /* ListView */ = {
-			isa = PBXGroup;
-			children = (
-				D001236628CCC17D001385DD /* EducationsList.swift */,
-				D01268AF28BE6C370041A9AC /* EducationsListItem.swift */,
-			);
-			path = ListView;
-			sourceTree = "<group>";
-		};
-		D022417028CCD8BE00081F08 /* RectangleView */ = {
-			isa = PBXGroup;
-			children = (
-				D022417128CCD8E900081F08 /* WorkExperienceRectangleList.swift */,
-				D022417428CCD95700081F08 /* WorkExperienceRectangleListItem.swift */,
-			);
-			path = RectangleView;
-			sourceTree = "<group>";
-		};
-		D022417728CCDB6100081F08 /* ListView */ = {
-			isa = PBXGroup;
-			children = (
-				D022417828CCDB7700081F08 /* WorkExperienceList.swift */,
-				D01268AD28BE6BAF0041A9AC /* WorkExperienceListItem.swift */,
-			);
-			path = ListView;
-			sourceTree = "<group>";
-		};
-		D04C3CDA28BD744800523B0C = {
-			isa = PBXGroup;
-			children = (
-				D04C3CE528BD744800523B0C /* CurriculumVitaeTeisrud */,
-				D04C3CE428BD744800523B0C /* Products */,
+				D03A5DEC28CCF1AA0070C965 /* iOS */,
+				D03A5DED28CCF1AF0070C965 /* iPadOS */,
+				D03A5DDC28CCF1870070C965 /* macOS */,
+				D03A5DCD28CCF1850070C965 /* Shared */,
+				D03A5DD628CCF1870070C965 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D04C3CE428BD744800523B0C /* Products */ = {
+		D03A5DCD28CCF1850070C965 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				D04C3CE328BD744800523B0C /* CurriculumVitaeTeisrud.app */,
+				D03A5DCE28CCF1850070C965 /* CurriculumVitaeTeisrudApp.swift */,
+				D03A5DCF28CCF1850070C965 /* ContentView.swift */,
+				D03A5DEE28CCF1C20070C965 /* Model */,
+				D03A5DF428CCF1C20070C965 /* Resources */,
+				D03A5DD028CCF1870070C965 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D03A5DD628CCF1870070C965 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D03A5DD528CCF1870070C965 /* CurriculumVitaeTeisrud.app */,
+				D03A5DDB28CCF1870070C965 /* CurriculumVitaeTeisrud.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D04C3CE528BD744800523B0C /* CurriculumVitaeTeisrud */ = {
+		D03A5DDC28CCF1870070C965 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				D04C3CE628BD744800523B0C /* CurriculumVitaeTeisrudApp.swift */,
-				D04C3CF528BD77DF00523B0C /* Views */,
-				D04C3D0928BD927800523B0C /* Model */,
-				D04C3CFC28BD7AB400523B0C /* Resources */,
-				D04C3CEA28BD744A00523B0C /* Assets.xcassets */,
-				D04C3CEC28BD744A00523B0C /* Preview Content */,
+				D03A5DDD28CCF1870070C965 /* macOS.entitlements */,
 			);
-			path = CurriculumVitaeTeisrud;
+			path = macOS;
 			sourceTree = "<group>";
 		};
-		D04C3CEC28BD744A00523B0C /* Preview Content */ = {
+		D03A5DEC28CCF1AA0070C965 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D04C3CED28BD744A00523B0C /* Preview Assets.xcassets */,
+				D03A5E0B28CCF1CF0070C965 /* Views */,
 			);
-			path = "Preview Content";
+			path = iOS;
 			sourceTree = "<group>";
 		};
-		D04C3CF428BD77CA00523B0C /* Profile */ = {
+		D03A5DED28CCF1AF0070C965 /* iPadOS */ = {
 			isa = PBXGroup;
 			children = (
-				D04C3CF728BD785F00523B0C /* ProfilePage.swift */,
 			);
-			path = Profile;
+			path = iPadOS;
 			sourceTree = "<group>";
 		};
-		D04C3CF528BD77DF00523B0C /* Views */ = {
+		D03A5DEE28CCF1C20070C965 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D04C3CE828BD744800523B0C /* ContentView.swift */,
-				D04C3CF628BD77FA00523B0C /* Educations */,
-				D04C3D0228BD887700523B0C /* WorkExperience */,
-				D04C3D0128BD885E00523B0C /* Volunteering */,
-				D04C3CF428BD77CA00523B0C /* Profile */,
-				D04C3CF928BD792000523B0C /* Helpers */,
+				D03A5DEF28CCF1C20070C965 /* Profile.swift */,
+				D03A5DF028CCF1C20070C965 /* WorkExperience.swift */,
+				D03A5DF128CCF1C20070C965 /* Eductaions.swift */,
+				D03A5DF228CCF1C20070C965 /* ModelData.swift */,
+				D03A5DF328CCF1C20070C965 /* Volunteering.swift */,
 			);
-			path = Views;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		D04C3CF628BD77FA00523B0C /* Educations */ = {
+		D03A5DF428CCF1C20070C965 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D01268A528BE04580041A9AC /* EducationsHome.swift */,
-				D022416E28CCD7CF00081F08 /* RectangleView */,
-				D022416F28CCD7E000081F08 /* ListView */,
-				D01268A728BE046A0041A9AC /* EducationsDetails.swift */,
-			);
-			path = Educations;
-			sourceTree = "<group>";
-		};
-		D04C3CF928BD792000523B0C /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				D04C3CFA28BD793A00523B0C /* MapView.swift */,
-				D04C3CFF28BD7C6D00523B0C /* CircleImage.swift */,
-				D05FF44228C6B6FD0027A5AE /* Skill.swift */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		D04C3CFC28BD7AB400523B0C /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D012689B28BDF3460041A9AC /* educations.json */,
-				D012689728BDF3410041A9AC /* workExperience.json */,
-				D012689D28BDF3A40041A9AC /* volunteering.json */,
-				D012689528BDF3410041A9AC /* profile.json */,
+				D03A5DF528CCF1C20070C965 /* volunteering.json */,
+				D03A5DF628CCF1C20070C965 /* educations.json */,
+				D03A5DF728CCF1C20070C965 /* workExperience.json */,
+				D03A5DF828CCF1C20070C965 /* profile.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		D04C3D0128BD885E00523B0C /* Volunteering */ = {
+		D03A5E0B28CCF1CF0070C965 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D04C3D0728BD8D7300523B0C /* VolunteeringDetails.swift */,
+				D03A5E2228CCF1CF0070C965 /* ContentView.swift */,
+				D03A5E1928CCF1CF0070C965 /* Educations */,
+				D03A5E0C28CCF1CF0070C965 /* WorkExperience */,
+				D03A5E1728CCF1CF0070C965 /* Volunteering */,
+				D03A5E1528CCF1CF0070C965 /* Profile */,
+				D03A5E2328CCF1CF0070C965 /* Helpers */,
 			);
-			path = Volunteering;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		D04C3D0228BD887700523B0C /* WorkExperience */ = {
+		D03A5E0C28CCF1CF0070C965 /* WorkExperience */ = {
 			isa = PBXGroup;
 			children = (
-				D01268A928BE18820041A9AC /* WorkExperienceHome.swift */,
-				D022417028CCD8BE00081F08 /* RectangleView */,
-				D022417728CCDB6100081F08 /* ListView */,
-				D01268AB28BE21EC0041A9AC /* WorkExperienceDetails.swift */,
+				D03A5E0D28CCF1CF0070C965 /* WorkExperienceDetails.swift */,
+				D03A5E0E28CCF1CF0070C965 /* RectangleView */,
+				D03A5E1128CCF1CF0070C965 /* ListView */,
+				D03A5E1428CCF1CF0070C965 /* WorkExperienceHome.swift */,
 			);
 			path = WorkExperience;
 			sourceTree = "<group>";
 		};
-		D04C3D0928BD927800523B0C /* Model */ = {
+		D03A5E0E28CCF1CF0070C965 /* RectangleView */ = {
 			isa = PBXGroup;
 			children = (
-				D04C3D0A28BD929300523B0C /* ModelData.swift */,
-				D01268A328BDFAEE0041A9AC /* Eductaions.swift */,
-				D01268A128BDFAE10041A9AC /* WorkExperience.swift */,
-				D012689F28BDF59E0041A9AC /* Volunteering.swift */,
-				D04C3D0C28BD92ED00523B0C /* Profile.swift */,
+				D03A5E0F28CCF1CF0070C965 /* WorkExperienceRectangleList.swift */,
+				D03A5E1028CCF1CF0070C965 /* WorkExperienceRectangleListItem.swift */,
 			);
-			path = Model;
+			path = RectangleView;
+			sourceTree = "<group>";
+		};
+		D03A5E1128CCF1CF0070C965 /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				D03A5E1228CCF1CF0070C965 /* WorkExperienceList.swift */,
+				D03A5E1328CCF1CF0070C965 /* WorkExperienceListItem.swift */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		D03A5E1528CCF1CF0070C965 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D03A5E1628CCF1CF0070C965 /* ProfilePage.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D03A5E1728CCF1CF0070C965 /* Volunteering */ = {
+			isa = PBXGroup;
+			children = (
+				D03A5E1828CCF1CF0070C965 /* VolunteeringDetails.swift */,
+			);
+			path = Volunteering;
+			sourceTree = "<group>";
+		};
+		D03A5E1928CCF1CF0070C965 /* Educations */ = {
+			isa = PBXGroup;
+			children = (
+				D03A5E1A28CCF1CF0070C965 /* EducationsHome.swift */,
+				D03A5E1B28CCF1CF0070C965 /* RectangleView */,
+				D03A5E1E28CCF1CF0070C965 /* ListView */,
+				D03A5E2128CCF1CF0070C965 /* EducationsDetails.swift */,
+			);
+			path = Educations;
+			sourceTree = "<group>";
+		};
+		D03A5E1B28CCF1CF0070C965 /* RectangleView */ = {
+			isa = PBXGroup;
+			children = (
+				D03A5E1C28CCF1CF0070C965 /* EducationsRectangleListItem.swift */,
+				D03A5E1D28CCF1CF0070C965 /* EducationsRectangleList.swift */,
+			);
+			path = RectangleView;
+			sourceTree = "<group>";
+		};
+		D03A5E1E28CCF1CF0070C965 /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				D03A5E1F28CCF1CF0070C965 /* EducationsListItem.swift */,
+				D03A5E2028CCF1CF0070C965 /* EducationsList.swift */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		D03A5E2328CCF1CF0070C965 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D03A5E2428CCF1CF0070C965 /* MapView.swift */,
+				D03A5E2528CCF1CF0070C965 /* CircleImage.swift */,
+				D03A5E2628CCF1CF0070C965 /* Skill.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D04C3CE228BD744800523B0C /* CurriculumVitaeTeisrud */ = {
+		D03A5DD428CCF1870070C965 /* CurriculumVitaeTeisrud (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D04C3CF128BD744A00523B0C /* Build configuration list for PBXNativeTarget "CurriculumVitaeTeisrud" */;
+			buildConfigurationList = D03A5DE628CCF1870070C965 /* Build configuration list for PBXNativeTarget "CurriculumVitaeTeisrud (iOS)" */;
 			buildPhases = (
-				D04C3CDF28BD744800523B0C /* Sources */,
-				D04C3CE028BD744800523B0C /* Frameworks */,
-				D04C3CE128BD744800523B0C /* Resources */,
+				D03A5DD128CCF1870070C965 /* Sources */,
+				D03A5DD228CCF1870070C965 /* Frameworks */,
+				D03A5DD328CCF1870070C965 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CurriculumVitaeTeisrud;
-			productName = CurriculumVitaeTeisrud;
-			productReference = D04C3CE328BD744800523B0C /* CurriculumVitaeTeisrud.app */;
+			name = "CurriculumVitaeTeisrud (iOS)";
+			productName = "CurriculumVitaeTeisrud (iOS)";
+			productReference = D03A5DD528CCF1870070C965 /* CurriculumVitaeTeisrud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D03A5DDA28CCF1870070C965 /* CurriculumVitaeTeisrud (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D03A5DE928CCF1870070C965 /* Build configuration list for PBXNativeTarget "CurriculumVitaeTeisrud (macOS)" */;
+			buildPhases = (
+				D03A5DD728CCF1870070C965 /* Sources */,
+				D03A5DD828CCF1870070C965 /* Frameworks */,
+				D03A5DD928CCF1870070C965 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CurriculumVitaeTeisrud (macOS)";
+			productName = "CurriculumVitaeTeisrud (macOS)";
+			productReference = D03A5DDB28CCF1870070C965 /* CurriculumVitaeTeisrud.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D04C3CDB28BD744800523B0C /* Project object */ = {
+		D03A5DC928CCF1850070C965 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					D04C3CE228BD744800523B0C = {
+					D03A5DD428CCF1870070C965 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D03A5DDA28CCF1870070C965 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = D04C3CDE28BD744800523B0C /* Build configuration list for PBXProject "CurriculumVitaeTeisrud" */;
+			buildConfigurationList = D03A5DCC28CCF1850070C965 /* Build configuration list for PBXProject "CurriculumVitaeTeisrud" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -284,68 +342,94 @@
 				en,
 				Base,
 			);
-			mainGroup = D04C3CDA28BD744800523B0C;
-			productRefGroup = D04C3CE428BD744800523B0C /* Products */;
+			mainGroup = D03A5DC828CCF1850070C965;
+			productRefGroup = D03A5DD628CCF1870070C965 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D04C3CE228BD744800523B0C /* CurriculumVitaeTeisrud */,
+				D03A5DD428CCF1870070C965 /* CurriculumVitaeTeisrud (iOS) */,
+				D03A5DDA28CCF1870070C965 /* CurriculumVitaeTeisrud (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D04C3CE128BD744800523B0C /* Resources */ = {
+		D03A5DD328CCF1870070C965 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D012689A28BDF3410041A9AC /* workExperience.json in Resources */,
-				D012689E28BDF3A40041A9AC /* volunteering.json in Resources */,
-				D012689C28BDF3460041A9AC /* educations.json in Resources */,
-				D04C3CEE28BD744A00523B0C /* Preview Assets.xcassets in Resources */,
-				D012689828BDF3410041A9AC /* profile.json in Resources */,
-				D04C3CEB28BD744A00523B0C /* Assets.xcassets in Resources */,
+				D03A5E0928CCF1C20070C965 /* profile.json in Resources */,
+				D03A5E0528CCF1C20070C965 /* educations.json in Resources */,
+				D03A5DE228CCF1870070C965 /* Assets.xcassets in Resources */,
+				D03A5E0728CCF1C20070C965 /* workExperience.json in Resources */,
+				D03A5E0328CCF1C20070C965 /* volunteering.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03A5DD928CCF1870070C965 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03A5E0A28CCF1C20070C965 /* profile.json in Resources */,
+				D03A5E0628CCF1C20070C965 /* educations.json in Resources */,
+				D03A5DE328CCF1870070C965 /* Assets.xcassets in Resources */,
+				D03A5E0828CCF1C20070C965 /* workExperience.json in Resources */,
+				D03A5E0428CCF1C20070C965 /* volunteering.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D04C3CDF28BD744800523B0C /* Sources */ = {
+		D03A5DD128CCF1870070C965 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D022417228CCD8E900081F08 /* WorkExperienceRectangleList.swift in Sources */,
-				D022417528CCD95700081F08 /* WorkExperienceRectangleListItem.swift in Sources */,
-				D01268A828BE046A0041A9AC /* EducationsDetails.swift in Sources */,
-				D04C3D0D28BD92ED00523B0C /* Profile.swift in Sources */,
-				D04C3CF828BD785F00523B0C /* ProfilePage.swift in Sources */,
-				D05FF44328C6B6FD0027A5AE /* Skill.swift in Sources */,
-				D04C3D0B28BD929300523B0C /* ModelData.swift in Sources */,
-				D022416928CCD6D000081F08 /* EducationsRectangleList.swift in Sources */,
-				D01268AE28BE6BAF0041A9AC /* WorkExperienceListItem.swift in Sources */,
-				D001236728CCC17E001385DD /* EducationsList.swift in Sources */,
-				D04C3CFB28BD793A00523B0C /* MapView.swift in Sources */,
-				D01268AA28BE18820041A9AC /* WorkExperienceHome.swift in Sources */,
-				D04C3D0828BD8D7300523B0C /* VolunteeringDetails.swift in Sources */,
-				D01268A628BE04580041A9AC /* EducationsHome.swift in Sources */,
-				D022416C28CCD76E00081F08 /* EducationsRectangleListItem.swift in Sources */,
-				D01268B028BE6C370041A9AC /* EducationsListItem.swift in Sources */,
-				D01268A428BDFAEE0041A9AC /* Eductaions.swift in Sources */,
-				D04C3CE928BD744800523B0C /* ContentView.swift in Sources */,
-				D022417928CCDB7700081F08 /* WorkExperienceList.swift in Sources */,
-				D04C3CE728BD744800523B0C /* CurriculumVitaeTeisrudApp.swift in Sources */,
-				D01268AC28BE21EC0041A9AC /* WorkExperienceDetails.swift in Sources */,
-				D04C3D0028BD7C6D00523B0C /* CircleImage.swift in Sources */,
-				D01268A228BDFAE10041A9AC /* WorkExperience.swift in Sources */,
-				D01268A028BDF59E0041A9AC /* Volunteering.swift in Sources */,
+				D03A5E0128CCF1C20070C965 /* Volunteering.swift in Sources */,
+				D03A5E3828CCF1CF0070C965 /* Skill.swift in Sources */,
+				D03A5E3128CCF1CF0070C965 /* EducationsRectangleList.swift in Sources */,
+				D03A5E2828CCF1CF0070C965 /* WorkExperienceRectangleList.swift in Sources */,
+				D03A5E3228CCF1CF0070C965 /* EducationsListItem.swift in Sources */,
+				D03A5DFD28CCF1C20070C965 /* Eductaions.swift in Sources */,
+				D03A5E3328CCF1CF0070C965 /* EducationsList.swift in Sources */,
+				D03A5E2C28CCF1CF0070C965 /* WorkExperienceHome.swift in Sources */,
+				D03A5DF928CCF1C20070C965 /* Profile.swift in Sources */,
+				D03A5E3628CCF1CF0070C965 /* MapView.swift in Sources */,
+				D03A5E2B28CCF1CF0070C965 /* WorkExperienceListItem.swift in Sources */,
+				D03A5E2F28CCF1CF0070C965 /* EducationsHome.swift in Sources */,
+				D03A5DFB28CCF1C20070C965 /* WorkExperience.swift in Sources */,
+				D03A5E3528CCF1CF0070C965 /* ContentView.swift in Sources */,
+				D03A5E3428CCF1CF0070C965 /* EducationsDetails.swift in Sources */,
+				D03A5E3028CCF1CF0070C965 /* EducationsRectangleListItem.swift in Sources */,
+				D03A5E2A28CCF1CF0070C965 /* WorkExperienceList.swift in Sources */,
+				D03A5E3728CCF1CF0070C965 /* CircleImage.swift in Sources */,
+				D03A5DDE28CCF1870070C965 /* CurriculumVitaeTeisrudApp.swift in Sources */,
+				D03A5E2E28CCF1CF0070C965 /* VolunteeringDetails.swift in Sources */,
+				D03A5E2D28CCF1CF0070C965 /* ProfilePage.swift in Sources */,
+				D03A5E2928CCF1CF0070C965 /* WorkExperienceRectangleListItem.swift in Sources */,
+				D03A5DFF28CCF1C20070C965 /* ModelData.swift in Sources */,
+				D03A5E2728CCF1CF0070C965 /* WorkExperienceDetails.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03A5DD728CCF1870070C965 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03A5E0228CCF1C20070C965 /* Volunteering.swift in Sources */,
+				D03A5DE128CCF1870070C965 /* ContentView.swift in Sources */,
+				D03A5DFE28CCF1C20070C965 /* Eductaions.swift in Sources */,
+				D03A5DFA28CCF1C20070C965 /* Profile.swift in Sources */,
+				D03A5DFC28CCF1C20070C965 /* WorkExperience.swift in Sources */,
+				D03A5DDF28CCF1870070C965 /* CurriculumVitaeTeisrudApp.swift in Sources */,
+				D03A5E0028CCF1C20070C965 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D04C3CEF28BD744A00523B0C /* Debug */ = {
+		D03A5DE428CCF1870070C965 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -395,17 +479,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		D04C3CF028BD744A00523B0C /* Release */ = {
+		D03A5DE528CCF1870070C965 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -449,100 +531,163 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		D04C3CF228BD744A00523B0C /* Debug */ = {
+		D03A5DE728CCF1870070C965 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CurriculumVitaeTeisrud/Preview Content\"";
 				DEVELOPMENT_TEAM = JFQR2M654C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = no.teisrud.CurriculumVitaeTeisrud;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CurriculumVitaeTeisrud;
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		D04C3CF328BD744A00523B0C /* Release */ = {
+		D03A5DE828CCF1870070C965 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CurriculumVitaeTeisrud/Preview Content\"";
 				DEVELOPMENT_TEAM = JFQR2M654C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = no.teisrud.CurriculumVitaeTeisrud;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CurriculumVitaeTeisrud;
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D03A5DEA28CCF1870070C965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JFQR2M654C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = no.teisrud.CurriculumVitaeTeisrud;
+				PRODUCT_NAME = CurriculumVitaeTeisrud;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D03A5DEB28CCF1870070C965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JFQR2M654C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = no.teisrud.CurriculumVitaeTeisrud;
+				PRODUCT_NAME = CurriculumVitaeTeisrud;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D04C3CDE28BD744800523B0C /* Build configuration list for PBXProject "CurriculumVitaeTeisrud" */ = {
+		D03A5DCC28CCF1850070C965 /* Build configuration list for PBXProject "CurriculumVitaeTeisrud" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D04C3CEF28BD744A00523B0C /* Debug */,
-				D04C3CF028BD744A00523B0C /* Release */,
+				D03A5DE428CCF1870070C965 /* Debug */,
+				D03A5DE528CCF1870070C965 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D04C3CF128BD744A00523B0C /* Build configuration list for PBXNativeTarget "CurriculumVitaeTeisrud" */ = {
+		D03A5DE628CCF1870070C965 /* Build configuration list for PBXNativeTarget "CurriculumVitaeTeisrud (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D04C3CF228BD744A00523B0C /* Debug */,
-				D04C3CF328BD744A00523B0C /* Release */,
+				D03A5DE728CCF1870070C965 /* Debug */,
+				D03A5DE828CCF1870070C965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D03A5DE928CCF1870070C965 /* Build configuration list for PBXNativeTarget "CurriculumVitaeTeisrud (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03A5DEA28CCF1870070C965 /* Debug */,
+				D03A5DEB28CCF1870070C965 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D04C3CDB28BD744800523B0C /* Project object */;
+	rootObject = D03A5DC928CCF1850070C965 /* Project object */;
 }
