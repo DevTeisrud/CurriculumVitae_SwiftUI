@@ -9,22 +9,38 @@ import SwiftUI
 
 struct WorkExperienceHome: View {
     @EnvironmentObject var modelData: ModelData
-    @State private var selectedWorkExperience: WorkExperience?
+    @State private var listView = false
     
     var body: some View {
         NavigationView {
-            List(selection: $selectedWorkExperience) {
-                ForEach(modelData.workExperience, id: \.self) { workExperience in
-                    NavigationLink {
-                        WorkExperienceDetails(workExperience: workExperience)
+            if listView{
+                List(){
+                    WorkExperienceList()
+                        .environmentObject(modelData)
+                }
+                .listStyle(.inset)
+                .navigationTitle("WorkExperience")
+                .toolbar {
+                    Button {
+                        listView.toggle()
                     } label: {
-                        WorkExperienceItem(workExperience: workExperience)
+                        Label("rectangleView", systemImage: "rectangle.grid.1x2.fill")
                     }
-
+                }
+            } else {
+                List(){
+                    WorkExperienceRectangleList()
+                        .environmentObject(modelData)
+                }
+                .navigationTitle("WorkExperience")
+                .toolbar {
+                    Button {
+                        listView.toggle()
+                    } label: {
+                        Label("ListView", systemImage: "list.dash")
+                    }
                 }
             }
-            .listStyle(.inset)
-            .navigationTitle("WorkExperience")
         }
     }
 }

@@ -1,5 +1,5 @@
 //
-//  WorkExperienceItem.swift
+//  WorkExperienceListItem.swift
 //  CurriculumVitaeTeisrud
 //
 //  Created by Bjørn Kristian Teisrud on 30/08/2022.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct WorkExperienceItem: View {
+struct WorkExperienceListItem: View {
     var workExperience: WorkExperience
     
     var body: some View {
@@ -34,8 +34,8 @@ struct WorkExperienceItem: View {
     }
 }
 
-struct WorkExperienceItem_Previews: PreviewProvider {
+struct WorkExperienceListItem_Previews: PreviewProvider {
     static var previews: some View {
-        WorkExperienceItem(workExperience: ModelData().workExperience[0])
+        WorkExperienceListItem(workExperience: ModelData().workExperience[0])
     }
 }

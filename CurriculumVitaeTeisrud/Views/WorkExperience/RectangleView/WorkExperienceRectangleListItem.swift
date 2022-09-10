@@ -1,5 +1,5 @@
 //
-//  EducationsRectangleListItem.swift
+//  WorkExperienceRectangleListItem.swift
 //  CurriculumVitaeTeisrud
 //
 //  Created by Bjørn Kristian Teisrud on 10/09/2022.
@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct EducationsRectangleListItem: View {
-    var educations: Educations
+struct WorkExperienceRectangleListItem: View {
+    var workExperience: WorkExperience
     
     var body: some View {
         VStack(spacing: 0){
             Spacer()
             HStack{
                 Spacer()
-                educations.image
+                workExperience.banner
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .padding()
@@ -24,9 +24,9 @@ struct EducationsRectangleListItem: View {
             Spacer()
             HStack{
                 VStack(alignment: .leading){
-                    Text(educations.title)
+                    Text(workExperience.role)
                         .font(.title)
-                    Text(educations.orgName)
+                    Text(workExperience.orgName)
                         .font(.subheadline)
                 }
                 .padding([.leading, .bottom])
@@ -39,8 +39,8 @@ struct EducationsRectangleListItem: View {
     }
 }
 
-struct EducationsRectangleListItem_Previews: PreviewProvider {
+struct WorkExperienceRectangleListItem_Previews: PreviewProvider {
     static var previews: some View {
-        EducationsRectangleListItem(educations: ModelData().educations[0])
+        WorkExperienceRectangleListItem(workExperience: ModelData().workExperience[0])
     }
 }
