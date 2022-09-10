@@ -32,6 +32,7 @@ struct WorkExperienceRectangleListItem: View {
                 .padding([.leading, .bottom])
                 Spacer()
             }
+            .background(Color(UIColor.systemBackground))
         }
         .background(Color.white)
         .frame(height: 200)

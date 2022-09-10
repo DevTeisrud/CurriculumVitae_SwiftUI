@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D001236728CCC17E001385DD /* EducationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D001236628CCC17D001385DD /* EducationsList.swift */; };
-		D001236828CCC17E001385DD /* EducationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D001236628CCC17D001385DD /* EducationsList.swift */; };
 		D012689828BDF3410041A9AC /* profile.json in Resources */ = {isa = PBXBuildFile; fileRef = D012689528BDF3410041A9AC /* profile.json */; };
 		D012689A28BDF3410041A9AC /* workExperience.json in Resources */ = {isa = PBXBuildFile; fileRef = D012689728BDF3410041A9AC /* workExperience.json */; };
 		D012689C28BDF3460041A9AC /* educations.json in Resources */ = {isa = PBXBuildFile; fileRef = D012689B28BDF3460041A9AC /* educations.json */; };
@@ -22,39 +21,11 @@
 		D01268AC28BE21EC0041A9AC /* WorkExperienceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268AB28BE21EC0041A9AC /* WorkExperienceDetails.swift */; };
 		D01268AE28BE6BAF0041A9AC /* WorkExperienceListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268AD28BE6BAF0041A9AC /* WorkExperienceListItem.swift */; };
 		D01268B028BE6C370041A9AC /* EducationsListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268AF28BE6C370041A9AC /* EducationsListItem.swift */; };
-		D01268CA28BE75A40041A9AC /* CurriculumVitaeTeisrud_iPadOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268C928BE75A40041A9AC /* CurriculumVitaeTeisrud_iPadOSApp.swift */; };
-		D01268CC28BE75A40041A9AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268CB28BE75A40041A9AC /* ContentView.swift */; };
-		D01268D128BE75A60041A9AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01268D028BE75A60041A9AC /* Preview Assets.xcassets */; };
-		D01268D728BE76270041A9AC /* EducationsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268A528BE04580041A9AC /* EducationsHome.swift */; };
-		D01268D828BE76270041A9AC /* EducationsListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268AF28BE6C370041A9AC /* EducationsListItem.swift */; };
-		D01268D928BE76270041A9AC /* EducationsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268A728BE046A0041A9AC /* EducationsDetails.swift */; };
-		D01268DA28BE76270041A9AC /* WorkExperienceHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268A928BE18820041A9AC /* WorkExperienceHome.swift */; };
-		D01268DB28BE76270041A9AC /* WorkExperienceListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268AD28BE6BAF0041A9AC /* WorkExperienceListItem.swift */; };
-		D01268DC28BE76270041A9AC /* WorkExperienceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268AB28BE21EC0041A9AC /* WorkExperienceDetails.swift */; };
-		D01268DF28BE76270041A9AC /* VolunteeringDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3D0728BD8D7300523B0C /* VolunteeringDetails.swift */; };
-		D01268E028BE76270041A9AC /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3CF728BD785F00523B0C /* ProfilePage.swift */; };
-		D01268E128BE76270041A9AC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3CFA28BD793A00523B0C /* MapView.swift */; };
-		D01268E228BE76270041A9AC /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3CFF28BD7C6D00523B0C /* CircleImage.swift */; };
-		D01268E328BE76270041A9AC /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3D0A28BD929300523B0C /* ModelData.swift */; };
-		D01268E428BE76270041A9AC /* Eductaions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268A328BDFAEE0041A9AC /* Eductaions.swift */; };
-		D01268E528BE76270041A9AC /* WorkExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01268A128BDFAE10041A9AC /* WorkExperience.swift */; };
-		D01268E628BE76270041A9AC /* Volunteering.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012689F28BDF59E0041A9AC /* Volunteering.swift */; };
-		D01268E728BE76270041A9AC /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3D0C28BD92ED00523B0C /* Profile.swift */; };
-		D01268E828BE76C50041A9AC /* educations.json in Resources */ = {isa = PBXBuildFile; fileRef = D012689B28BDF3460041A9AC /* educations.json */; };
-		D01268E928BE76C50041A9AC /* workExperience.json in Resources */ = {isa = PBXBuildFile; fileRef = D012689728BDF3410041A9AC /* workExperience.json */; };
-		D01268EA28BE76C50041A9AC /* volunteering.json in Resources */ = {isa = PBXBuildFile; fileRef = D012689D28BDF3A40041A9AC /* volunteering.json */; };
-		D01268EB28BE76C50041A9AC /* profile.json in Resources */ = {isa = PBXBuildFile; fileRef = D012689528BDF3410041A9AC /* profile.json */; };
-		D01268EC28BE76E40041A9AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04C3CEA28BD744A00523B0C /* Assets.xcassets */; };
 		D022416928CCD6D000081F08 /* EducationsRectangleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022416828CCD6D000081F08 /* EducationsRectangleList.swift */; };
-		D022416A28CCD6D000081F08 /* EducationsRectangleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022416828CCD6D000081F08 /* EducationsRectangleList.swift */; };
 		D022416C28CCD76E00081F08 /* EducationsRectangleListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022416B28CCD76E00081F08 /* EducationsRectangleListItem.swift */; };
-		D022416D28CCD76E00081F08 /* EducationsRectangleListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022416B28CCD76E00081F08 /* EducationsRectangleListItem.swift */; };
 		D022417228CCD8E900081F08 /* WorkExperienceRectangleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022417128CCD8E900081F08 /* WorkExperienceRectangleList.swift */; };
-		D022417328CCD8E900081F08 /* WorkExperienceRectangleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022417128CCD8E900081F08 /* WorkExperienceRectangleList.swift */; };
 		D022417528CCD95700081F08 /* WorkExperienceRectangleListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022417428CCD95700081F08 /* WorkExperienceRectangleListItem.swift */; };
-		D022417628CCD95700081F08 /* WorkExperienceRectangleListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022417428CCD95700081F08 /* WorkExperienceRectangleListItem.swift */; };
 		D022417928CCDB7700081F08 /* WorkExperienceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022417828CCDB7700081F08 /* WorkExperienceList.swift */; };
-		D022417A28CCDB7700081F08 /* WorkExperienceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022417828CCDB7700081F08 /* WorkExperienceList.swift */; };
 		D04C3CE728BD744800523B0C /* CurriculumVitaeTeisrudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3CE628BD744800523B0C /* CurriculumVitaeTeisrudApp.swift */; };
 		D04C3CE928BD744800523B0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3CE828BD744800523B0C /* ContentView.swift */; };
 		D04C3CEB28BD744A00523B0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04C3CEA28BD744A00523B0C /* Assets.xcassets */; };
@@ -66,7 +37,6 @@
 		D04C3D0B28BD929300523B0C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3D0A28BD929300523B0C /* ModelData.swift */; };
 		D04C3D0D28BD92ED00523B0C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C3D0C28BD92ED00523B0C /* Profile.swift */; };
 		D05FF44328C6B6FD0027A5AE /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05FF44228C6B6FD0027A5AE /* Skill.swift */; };
-		D05FF44428C6C02A0027A5AE /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05FF44228C6B6FD0027A5AE /* Skill.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,11 +54,6 @@
 		D01268AB28BE21EC0041A9AC /* WorkExperienceDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkExperienceDetails.swift; sourceTree = "<group>"; };
 		D01268AD28BE6BAF0041A9AC /* WorkExperienceListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkExperienceListItem.swift; sourceTree = "<group>"; };
 		D01268AF28BE6C370041A9AC /* EducationsListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationsListItem.swift; sourceTree = "<group>"; };
-		D01268C728BE75A40041A9AC /* CurriculumVitaeTeisrud_iPadOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurriculumVitaeTeisrud_iPadOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D01268C928BE75A40041A9AC /* CurriculumVitaeTeisrud_iPadOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurriculumVitaeTeisrud_iPadOSApp.swift; sourceTree = "<group>"; };
-		D01268CB28BE75A40041A9AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D01268CD28BE75A60041A9AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D01268D028BE75A60041A9AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D022416828CCD6D000081F08 /* EducationsRectangleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationsRectangleList.swift; sourceTree = "<group>"; };
 		D022416B28CCD76E00081F08 /* EducationsRectangleListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationsRectangleListItem.swift; sourceTree = "<group>"; };
 		D022417128CCD8E900081F08 /* WorkExperienceRectangleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkExperienceRectangleList.swift; sourceTree = "<group>"; };
@@ -109,13 +74,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D01268C428BE75A40041A9AC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D04C3CE028BD744800523B0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -126,25 +84,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D01268C828BE75A40041A9AC /* CurriculumVitaeTeisrud_iPadOS */ = {
-			isa = PBXGroup;
-			children = (
-				D01268C928BE75A40041A9AC /* CurriculumVitaeTeisrud_iPadOSApp.swift */,
-				D01268CB28BE75A40041A9AC /* ContentView.swift */,
-				D01268CD28BE75A60041A9AC /* Assets.xcassets */,
-				D01268CF28BE75A60041A9AC /* Preview Content */,
-			);
-			path = CurriculumVitaeTeisrud_iPadOS;
-			sourceTree = "<group>";
-		};
-		D01268CF28BE75A60041A9AC /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				D01268D028BE75A60041A9AC /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
 		D022416E28CCD7CF00081F08 /* RectangleView */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,7 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				D04C3CE528BD744800523B0C /* CurriculumVitaeTeisrud */,
-				D01268C828BE75A40041A9AC /* CurriculumVitaeTeisrud_iPadOS */,
 				D04C3CE428BD744800523B0C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -194,7 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				D04C3CE328BD744800523B0C /* CurriculumVitaeTeisrud.app */,
-				D01268C728BE75A40041A9AC /* CurriculumVitaeTeisrud_iPadOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -307,23 +244,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D01268C628BE75A40041A9AC /* CurriculumVitaeTeisrud_iPadOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D01268D228BE75A60041A9AC /* Build configuration list for PBXNativeTarget "CurriculumVitaeTeisrud_iPadOS" */;
-			buildPhases = (
-				D01268C328BE75A40041A9AC /* Sources */,
-				D01268C428BE75A40041A9AC /* Frameworks */,
-				D01268C528BE75A40041A9AC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CurriculumVitaeTeisrud_iPadOS;
-			productName = CurriculumVitaeTeisrud_iPadOS;
-			productReference = D01268C728BE75A40041A9AC /* CurriculumVitaeTeisrud_iPadOS.app */;
-			productType = "com.apple.product-type.application";
-		};
 		D04C3CE228BD744800523B0C /* CurriculumVitaeTeisrud */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D04C3CF128BD744A00523B0C /* Build configuration list for PBXNativeTarget "CurriculumVitaeTeisrud" */;
@@ -351,9 +271,6 @@
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					D01268C628BE75A40041A9AC = {
-						CreatedOnToolsVersion = 13.4.1;
-					};
 					D04C3CE228BD744800523B0C = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -373,25 +290,11 @@
 			projectRoot = "";
 			targets = (
 				D04C3CE228BD744800523B0C /* CurriculumVitaeTeisrud */,
-				D01268C628BE75A40041A9AC /* CurriculumVitaeTeisrud_iPadOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D01268C528BE75A40041A9AC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D01268EC28BE76E40041A9AC /* Assets.xcassets in Resources */,
-				D01268E828BE76C50041A9AC /* educations.json in Resources */,
-				D01268E928BE76C50041A9AC /* workExperience.json in Resources */,
-				D01268EA28BE76C50041A9AC /* volunteering.json in Resources */,
-				D01268EB28BE76C50041A9AC /* profile.json in Resources */,
-				D01268D128BE75A60041A9AC /* Preview Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D04C3CE128BD744800523B0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -408,37 +311,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D01268C328BE75A40041A9AC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D022417328CCD8E900081F08 /* WorkExperienceRectangleList.swift in Sources */,
-				D022417628CCD95700081F08 /* WorkExperienceRectangleListItem.swift in Sources */,
-				D022416A28CCD6D000081F08 /* EducationsRectangleList.swift in Sources */,
-				D05FF44428C6C02A0027A5AE /* Skill.swift in Sources */,
-				D001236828CCC17E001385DD /* EducationsList.swift in Sources */,
-				D01268D728BE76270041A9AC /* EducationsHome.swift in Sources */,
-				D01268D828BE76270041A9AC /* EducationsListItem.swift in Sources */,
-				D01268D928BE76270041A9AC /* EducationsDetails.swift in Sources */,
-				D01268DA28BE76270041A9AC /* WorkExperienceHome.swift in Sources */,
-				D01268DB28BE76270041A9AC /* WorkExperienceListItem.swift in Sources */,
-				D01268DC28BE76270041A9AC /* WorkExperienceDetails.swift in Sources */,
-				D01268DF28BE76270041A9AC /* VolunteeringDetails.swift in Sources */,
-				D01268E028BE76270041A9AC /* ProfilePage.swift in Sources */,
-				D01268E128BE76270041A9AC /* MapView.swift in Sources */,
-				D01268E228BE76270041A9AC /* CircleImage.swift in Sources */,
-				D01268E328BE76270041A9AC /* ModelData.swift in Sources */,
-				D022416D28CCD76E00081F08 /* EducationsRectangleListItem.swift in Sources */,
-				D01268E428BE76270041A9AC /* Eductaions.swift in Sources */,
-				D022417A28CCDB7700081F08 /* WorkExperienceList.swift in Sources */,
-				D01268E528BE76270041A9AC /* WorkExperience.swift in Sources */,
-				D01268E628BE76270041A9AC /* Volunteering.swift in Sources */,
-				D01268E728BE76270041A9AC /* Profile.swift in Sources */,
-				D01268CC28BE75A40041A9AC /* ContentView.swift in Sources */,
-				D01268CA28BE75A40041A9AC /* CurriculumVitaeTeisrud_iPadOSApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D04C3CDF28BD744800523B0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -473,64 +345,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D01268D328BE75A60041A9AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CurriculumVitaeTeisrud_iPadOS/Preview Content\"";
-				DEVELOPMENT_TEAM = JFQR2M654C;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "no.teisrud.CurriculumVitaeTeisrud-iPadOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 2;
-			};
-			name = Debug;
-		};
-		D01268D428BE75A60041A9AC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CurriculumVitaeTeisrud_iPadOS/Preview Content\"";
-				DEVELOPMENT_TEAM = JFQR2M654C;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "no.teisrud.CurriculumVitaeTeisrud-iPadOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 2;
-			};
-			name = Release;
-		};
 		D04C3CEF28BD744A00523B0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -660,6 +474,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -690,6 +505,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -708,15 +524,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D01268D228BE75A60041A9AC /* Build configuration list for PBXNativeTarget "CurriculumVitaeTeisrud_iPadOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D01268D328BE75A60041A9AC /* Debug */,
-				D01268D428BE75A60041A9AC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D04C3CDE28BD744800523B0C /* Build configuration list for PBXProject "CurriculumVitaeTeisrud" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
